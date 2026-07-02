@@ -1,0 +1,3236 @@
+{
+  "cards": [
+    {
+      "id": "card-1cdfe7e9f37c",
+      "question": "Welche zentralen Kenntnisse sollen Studierende bezüglich Autorensystemen erwerben?",
+      "answer": "Studierende sollen die verschiedenen Typen von Autorensystemen kennen und deren unterschiedliche Einsatzzwecke erklären können.",
+      "category": "Lernergebnisse",
+      "examRelevance": "high",
+      "sourcePages": [
+        7
+      ],
+      "highlights": [
+        "Typen von Autorensystemen",
+        "Einsatzzwecke"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-ecb7eb53ff6c",
+      "question": "Welche Fähigkeiten sollen Studierende im Kontext von Multimedia-Projekten erlangen?",
+      "answer": "Studierende sollen die Methoden und Techniken kennen, die zur Umsetzung eines Multimedia-Projektes benötigt werden.",
+      "category": "Lernergebnisse",
+      "examRelevance": "high",
+      "sourcePages": [
+        7
+      ],
+      "highlights": [
+        "Methoden und Techniken",
+        "Multimedia-Projektes"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-6ccb766ae3c6",
+      "question": "Welche Aspekte der Entwicklung von Autorensystemen sollen Studierende verstehen und bewerten können?",
+      "answer": "Studierende sollen die geschichtliche Entwicklung, Einflüsse und Interaktionen von Autorensystemen mit anderen Themengebieten (wie dem WWW und dem Internet) verstehen, wiedergeben und bewerten können.",
+      "category": "Lernergebnisse",
+      "examRelevance": "high",
+      "sourcePages": [
+        7
+      ],
+      "highlights": [
+        "geschichtliche Entwicklung",
+        "Einflüsse",
+        "Interaktionen",
+        "WWW",
+        "Internet"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-4906d1ca9f0d",
+      "question": "Welche Kerninhalte werden im Modul \"Autorensysteme\" bezüglich ihrer Entstehung und Einordnung behandelt?",
+      "answer": "Im Modul werden die Geschichte und Entwicklung der Autorensysteme sowie deren Vorläufer behandelt. Des Weiteren wird die Klassifikation der unterschiedlichen Typen von Autorensystemen gelehrt.",
+      "category": "Themengebiete",
+      "examRelevance": "high",
+      "sourcePages": [
+        8
+      ],
+      "highlights": [
+        "Geschichte und Entwicklung",
+        "Vorläufer",
+        "Klassifikation",
+        "Typen von Autorensystemen"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-fc204288013c",
+      "question": "Welche Aspekte des Software Engineerings sind für Multimedia-Anwendungen im Kontext von Autorensystemen relevant?",
+      "answer": "Für Multimedia-Anwendungen im Kontext von Autorensystemen sind Software Engineering, Vorgehensmodelle und Projektmanagement zentrale Aspekte, die behandelt werden.",
+      "category": "Themengebiete, Methoden",
+      "examRelevance": "high",
+      "sourcePages": [
+        8
+      ],
+      "highlights": [
+        "Software Engineering",
+        "Vorgehensmodelle",
+        "Projektmanagement",
+        "Multimedia-Anwendungen"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-6377599dc555",
+      "question": "Was umfasst der Bereich der Multimedia-Komponenten (Assets) im Rahmen der Autorensysteme?",
+      "answer": "Der Bereich der Multimedia-Komponenten (Assets) umfasst deren Beschaffung, Bearbeitung und Integration in Autorensysteme.",
+      "category": "Themengebiete, Prozesse",
+      "examRelevance": "high",
+      "sourcePages": [
+        8
+      ],
+      "highlights": [
+        "Multimedia-Komponenten",
+        "Assets",
+        "Beschaffung",
+        "Bearbeitung",
+        "Integration"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-f1cbf802e631",
+      "question": "Welche Rolle spielen Navigation und Interaktion bei der Benutzerführung in Autorensystemen?",
+      "answer": "Navigation und Interaktion sind entscheidende Elemente der Benutzerführung in Autorensystemen, die im Rahmen der Lehrinhalte behandelt werden.",
+      "category": "Themengebiete, Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        8
+      ],
+      "highlights": [
+        "Benutzerführung",
+        "Navigation",
+        "Interaktion"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-dd7aad06c4a3",
+      "question": "Welche spezifischen freien oder Open-Source-Autorensysteme werden im Modul behandelt?",
+      "answer": "Im Modul werden die Bedienung und die Programmierung/Steuerung von freien oder Open-Source-Autorensystemen wie Google Web Designer, H5P und Unity behandelt.",
+      "category": "Themengebiete, Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        8
+      ],
+      "highlights": [
+        "Open-Source-Autorensysteme",
+        "Google Web Designer",
+        "H5P",
+        "Unity",
+        "Programmierung",
+        "Steuerung"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-de539da3f091",
+      "question": "Welche grundlegenden Konzepte der objektorientierten Programmierung müssen für das Modul \"Autorensysteme\" beherrscht werden?",
+      "answer": "Für das Modul müssen grundlegende Konzepte wie Klasse, Objekt/Instanz, Methode, Nachricht und Instanzvariable sowie Vererbung (Inheritance), Schnittstellen (Interfaces) und Ausnahmen (Exceptions) beherrscht werden.",
+      "category": "Voraussetzungen, Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        9
+      ],
+      "highlights": [
+        "Klasse",
+        "Objekt/Instanz",
+        "Methode",
+        "Nachricht",
+        "Instanzvariable",
+        "Vererbung",
+        "Inheritance",
+        "Schnittstellen"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-ab5a87c89b1e",
+      "question": "Welches Programmierparadigma ist eine wichtige Voraussetzung für das Modul \"Autorensysteme\"?",
+      "answer": "Die ereignisbasierte Programmierung (event-based programming) ist eine wichtige Voraussetzung für das Modul \"Autorensysteme\".",
+      "category": "Voraussetzungen, Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        9
+      ],
+      "highlights": [
+        "ereignisbasierte Programmierung",
+        "event-based programming"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-92a7e300eb18",
+      "question": "Welche Kenntnisse im Bereich Animation und Grafikdesign sind für das Modul \"Autorensysteme\" erforderlich?",
+      "answer": "Erforderlich sind der Umgang mit Grafikprogrammen für Pixel- und Vektorgrafik, ein Gefühl für Layout, Farbgebung und Typographie sowie Basiswissen in zeitleistenbasierter Animation.",
+      "category": "Voraussetzungen, Methoden",
+      "examRelevance": "high",
+      "sourcePages": [
+        9
+      ],
+      "highlights": [
+        "Grafikprogramme",
+        "Pixelgrafik",
+        "Vektorgrafik",
+        "Layout",
+        "Farbgebung",
+        "Typographie",
+        "zeitleistenbasierte Animation"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-4c263c3ad667",
+      "question": "Welche Entwicklungsumgebungen werden aktuell im Modul \"Autorensysteme\" verwendet?",
+      "answer": "Aktuell werden im Modul \"Autorensysteme\" der Google Web Designer (GWD), H5P/Lumi und Unity als Entwicklungsumgebungen eingesetzt.",
+      "category": "Begriffe, Methoden",
+      "examRelevance": "high",
+      "sourcePages": [
+        10
+      ],
+      "highlights": [
+        "Entwicklungsumgebungen",
+        "Google Web Designer",
+        "GWD",
+        "H5P",
+        "Lumi",
+        "Unity"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-010.webp"
+      ]
+    },
+    {
+      "id": "card-a24d94bf3b7c",
+      "question": "Nennen Sie Beispiele für Entwicklungsumgebungen, die in der Vergangenheit für Autorensysteme genutzt wurden.",
+      "answer": "In der Vergangenheit wurden unter anderem Director, DreamCard, Flash, Tumult Hype und Livecode als Entwicklungsumgebungen für Autorensysteme genutzt.",
+      "category": "Begriffe, Geschichte",
+      "examRelevance": "medium",
+      "sourcePages": [
+        10
+      ],
+      "highlights": [
+        "Director",
+        "DreamCard",
+        "Flash",
+        "Tumult Hype",
+        "Livecode"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-010.webp"
+      ]
+    },
+    {
+      "id": "card-0ae76a45cb0f",
+      "question": "Wie ist die Modulstruktur des Kurses \"Autorensysteme\" bezüglich Vorlesung, Praktikum und ECTS-Punkten aufgebaut (BPO 2024)?",
+      "answer": "Gemäß der BPO 2024 besteht die Modulstruktur aus 2 SWS Vorlesung und 2 SWS Praktikum. Für das Modul werden insgesamt 5 ECTS-Punkte vergeben.",
+      "category": "Modulstruktur",
+      "examRelevance": "high",
+      "sourcePages": [
+        14
+      ],
+      "highlights": [
+        "2 SWS Vorlesung",
+        "2 SWS Praktikum",
+        "5 ECTS-Punkte",
+        "BPO 2024"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-8be84c85be4f",
+      "question": "Wie hoch ist die studentische Arbeitsbelastung für das Modul \"Autorensysteme\" und wie setzt sie sich zusammen?",
+      "answer": "Die studentische Arbeitsbelastung für das Modul beträgt insgesamt 150 Stunden. Diese setzen sich zusammen aus 60 Stunden Kontaktzeit (4 SWS x 15) und 90 Stunden Selbststudium.",
+      "category": "Modulstruktur",
+      "examRelevance": "medium",
+      "sourcePages": [
+        14
+      ],
+      "highlights": [
+        "150 Stunden",
+        "60 Stunden Kontaktzeit",
+        "90 Stunden Selbststudium"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-878fd844e493",
+      "question": "Wie lange dauert die Klausur für das Modul \"Autorensysteme\"?",
+      "answer": "Die Klausur für das Modul \"Autorensysteme\" dauert 90 Minuten.",
+      "category": "Modulstruktur",
+      "examRelevance": "high",
+      "sourcePages": [
+        14
+      ],
+      "highlights": [
+        "90 Minuten"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-1a0aa8e9a113",
+      "question": "Welche Arten von Einsendeaufgaben sind im Modul \"Autorensysteme\" vorgesehen und wie werden sie bearbeitet?",
+      "answer": "Im Modul \"Autorensysteme\" sind Einsendeaufgaben in Form eines GWD-Projekts und eines H5P-Projekts vorgesehen, die jeweils als persönliche Arbeit (keine Gruppenarbeit) zu erledigen sind. Zusätzlich gibt es Aufgaben für \"CampusView\", die einen virtuellen Rundgang und eine Unity-Anwendung umfassen und in Gruppen von 3-4 Personen aus der Praktikumsgruppe bearbeitet werden. Die Einteilung der Gruppen erfolgt per Zufall über Moodle.",
+      "category": "Prozesse",
+      "examRelevance": "high",
+      "sourcePages": [
+        16
+      ],
+      "highlights": [
+        "GWD-Projekt",
+        "H5P-Projekt",
+        "persönliche Arbeit",
+        "CampusView",
+        "virtueller Rundgang",
+        "Unity-Anwendung",
+        "Gruppenarbeit",
+        "3-4 Personen"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-1d6a8c3b931f",
+      "question": "Welche Kriterien sind für das Bestehen der Aufgaben und die Gesamtbewertung im Modul \"Autorensysteme\" entscheidend?",
+      "answer": "Für das Bestehen der Aufgaben ist es notwendig, dass alle Aufgaben bestanden werden, was mittels Testat/Abnahme im Praktikum und einer Gesamtbeurteilung erfolgt. Darüber hinaus ist sauberes Arbeiten bezüglich Formatierung, Stil, Layout und Dokumentation (inklusive Kommentare im Quell-Code) sowie eine wichtige Navigation und Benutzerführung entscheidend für die Bewertung.",
+      "category": "Bewertung",
+      "examRelevance": "high",
+      "sourcePages": [
+        17
+      ],
+      "highlights": [
+        "alle Aufgaben müssen bestanden werden",
+        "Testat/Abnahme im Praktikum",
+        "Gesamtbeurteilung",
+        "Sauber arbeiten",
+        "Formatierung",
+        "Stil",
+        "Layout",
+        "Dokumentation"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-e5bc1f0d9063",
+      "question": "Über welches System erfolgen die Abgaben im Modul \"Autorensysteme\" und welche Regeln gelten für die Abgabetermine?",
+      "answer": "Die Abgaben im Modul \"Autorensysteme\" erfolgen ausschließlich über ein Abgabesystem im Lernraum Moodle; Abgaben per Mail werden NICHT akzeptiert. Die Abgabetermine sind immer um 23:59:00 Uhr, wobei diese Uhrzeit Moodle-bedingt ist und das Abgabefach anschließend automatisch umgeschaltet wird.",
+      "category": "Prozesse",
+      "examRelevance": "high",
+      "sourcePages": [
+        18
+      ],
+      "highlights": [
+        "Abgabesystem",
+        "Moodle",
+        "NICHT akzeptiert",
+        "23:59:00 Uhr",
+        "Moodle-bedingt",
+        "automatisch umgeschaltet"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-d616c87ac1bd",
+      "question": "Welche spezifischen Regeln gelten für die Gruppenarbeit und die Abgabe von Gruppenarbeiten im Modul \"Autorensysteme\"?",
+      "answer": "Gruppenarbeit ist speziell für das CampusView-Projekt vorgesehen und erfolgt in Gruppen von 3-4 Personen. Bei der Abgabe müssen in jeder Abgabe die Gruppenmitglieder eindeutig definiert werden. Es ist ausreichend, wenn alle Gruppenmitglieder die Abgabe in Moodle einreichen, oder (falls Moodle dies unterstützt) die Abgabe bestätigen.",
+      "category": "Prozesse",
+      "examRelevance": "high",
+      "sourcePages": [
+        19
+      ],
+      "highlights": [
+        "CampusView",
+        "3-4 Personen",
+        "Gruppenmitglieder eindeutig definiert",
+        "alle Gruppenmitglieder reichen die Abgabe ein",
+        "Abgabe bestätigen"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-82ba01571b0b",
+      "question": "Welche Bedingungen müssen bei der Abgabe von Dateien im Modul \"Autorensysteme\" beachtet werden?",
+      "answer": "Bei der Abgabe von Dateien müssen die Vorgaben für Format und Dateityp sowie die Namensgebung beachtet werden (z.B. <Nachname>_GWD_2.pdf); nur Abgaben im angegebenen Format werden gewertet. Zudem ist die maximale Dateigröße zu beachten, da zu große Dateien nicht akzeptiert werden und ggf. multimediale Elemente reduziert werden müssen. Es ist außerdem zwingend erforderlich, die eigenen Abgaben zu überprüfen, indem die Datei wieder geladen und überprüft wird, da nicht-lesbare Dateien nicht als abgegeben gelten.",
+      "category": "Prozesse",
+      "examRelevance": "high",
+      "sourcePages": [
+        20
+      ],
+      "highlights": [
+        "Vorgaben für Format / Dateityp",
+        "Namensgebung",
+        "maximale Dateigröße",
+        "zu große Dateien werden nicht akzeptiert",
+        "multimediale Elemente reduzieren",
+        "Abgaben überprüfen",
+        "nicht-lesbare Dateien"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-c42b2941fbd0",
+      "question": "Was sind die wesentlichen Regeln bezüglich der Abgabetermine im Praktikum und welche Konsequenzen ergeben sich bei Nichteinhaltung?",
+      "answer": "Einige Abgabetermine sind definitiv. Das Abgabefach wird automatisch geschlossen, wodurch keine weiteren Abgaben mehr möglich sind und das Praktikum als nicht bestanden gilt. Bei Kalamitäten oder großen Ausfällen (z.B. Krankenhausaufenthalt) muss dies sofort und immer vor dem Abgabetermin gemeldet werden, da nachträgliche Diskussionen nicht akzeptiert werden.",
+      "category": "Prozesse, Pruefungsfallen",
+      "examRelevance": "high",
+      "sourcePages": [
+        21
+      ],
+      "highlights": [
+        "definitive Abgabetermine",
+        "Abgabefach wird automatisch geschlossen",
+        "Praktikum vorbei",
+        "sofort vor der Abgabe melden",
+        "keine Diskussionen im Nachhinein"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-3beb6329bdfd",
+      "question": "Was sind die Hauptziele des Praktikums und welche Bestandteile umfasst es?",
+      "answer": "Das Praktikum ist eine Pflichtveranstaltung mit dem Hauptziel, praktische Arbeit durchzuführen und dabei Fragen zu stellen. Es umfasst Quicktests (Multiple-Choice-Fragen), ggf. Übungen zur Programmierung und Techniken (nicht verpflichtend, aber empfehlenswert) sowie eigene Arbeit.",
+      "category": "Prozesse, Themengebiete",
+      "examRelevance": "high",
+      "sourcePages": [
+        22
+      ],
+      "highlights": [
+        "Pflichtveranstaltung",
+        "praktische Arbeit durchführen",
+        "Fragen stellen",
+        "Quicktests",
+        "Übungen",
+        "eigene Arbeit"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-b7a73ce8de0b",
+      "question": "Wie werden die Abgaben im Praktikum bewertet und welche Regeln gelten für die Versionen der Abgaben?",
+      "answer": "Die Abgaben werden im Praktikum abgenommen und bewertet. Es werden ausschließlich die Abgaben bewertet, die im Moodle-System gespeichert sind. Spätere Versionen oder nachträglich eingereichte Arbeiten werden nicht berücksichtigt. Die Abgaben werden zudem im Praktikum aufgerufen und präsentiert.",
+      "category": "Prozesse, Pruefungsfallen",
+      "examRelevance": "high",
+      "sourcePages": [
+        23
+      ],
+      "highlights": [
+        "Abgaben werden im Praktikum abgenommen und bewertet",
+        "im Moodle-System gespeichert",
+        "keine spätere Versionen",
+        "im Praktikum aufgerufen"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-0f3a99feac9e",
+      "question": "Welche Regeln gelten für Fehlzeiten im Praktikum und die Teilnahme an Quick-Tests?",
+      "answer": "Praktika sind Pflichtveranstaltungen. Studierende dürfen maximal zwei Praktika fehlen, ohne dass hierfür eine Bescheinigung benötigt wird. Es liegt in der eigenen Verantwortung, die Anwesenheit zu überwachen. Die Teilnahme an den Quick-Tests wird als Registrierung für die Anwesenheit genutzt, und diese Tests schließen nach 15 Minuten. Ein Praktikumsbesuch bedeutet nicht, nur 15 Minuten für den Quick-Test anwesend zu sein und dann zu gehen.",
+      "category": "Prozesse, Pruefungsfallen",
+      "examRelevance": "high",
+      "sourcePages": [
+        24
+      ],
+      "highlights": [
+        "Pflichtveranstaltungen",
+        "max. 2 Praktika fehlen",
+        "eigene Verantwortung",
+        "Teilnahme an Quick-Tests wird als Registrierung genutzt",
+        "Quick-Tests schließen nach 15 Minuten",
+        "Praktikumsbesuch"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-e73e157d3869",
+      "question": "Wie erfolgt die Verteilung in Praktikumsgruppen und welche Frist gilt für die Anmeldung?",
+      "answer": "Die Verteilung in Praktikumsgruppen erfolgt gleichmäßig mit maximal 16 Studierenden pro Praktikumstermin. Die Gruppeneinteilung ist abhängig von der Anzahl der Anmeldungen in Moodle und wird ebenfalls von Moodle bestimmt. Die Anmeldung über das Lernraumsystem (Moodle) ist unbedingt bis zum Ende der ersten Vorlesungswoche abzuschließen. Insgesamt gibt es maximal vier Praktikumsgruppen: A, B, C, D.",
+      "category": "Prozesse",
+      "examRelevance": "medium",
+      "sourcePages": [
+        25
+      ],
+      "highlights": [
+        "max. 16 Studierende pro Praktikumstermin",
+        "Einteilung in Gruppen wird von Moodle bestimmt",
+        "Anmeldung Lernraumsystem (Moodle)",
+        "unbedingt bis zum Ende der 1. Vorlesungswoche",
+        "max. 4 Praktikumsgruppen"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-7fbdabee868e",
+      "question": "Was ist die Aufgabe im Bereich HTML5-Animation im Praktikum?",
+      "answer": "Die Aufgabe im Bereich HTML5-Animation besteht darin, eine einfache Animation in GWD (Google Web Designer) zu erstellen, ein Tutorial umzusetzen und zu erweitern sowie eine persönliche Aufgabe zu bearbeiten.",
+      "category": "Themengebiete, Methoden",
+      "examRelevance": "medium",
+      "sourcePages": [
+        28,
+        29
+      ],
+      "highlights": [
+        "HTML5-Animation",
+        "GWD",
+        "Tutorial umsetzen und erweitern",
+        "persönliche Aufgabe"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-9db12394bfaa",
+      "question": "Was bedeutet H5P im Kontext des Praktikums und welche Lernmethode ist damit verbunden?",
+      "answer": "H5P steht im Kontext des Praktikums für \"Frame-Based Learning\". Es handelt sich um ein Framework, das die Erstellung interaktiver Inhalte ermöglicht, die oft in einem sequenziellen oder \"Frame-basierten\" Format präsentiert werden, um Lerninhalte strukturiert zu vermitteln.",
+      "category": "Begriffe, Themengebiete",
+      "examRelevance": "medium",
+      "sourcePages": [
+        30
+      ],
+      "highlights": [
+        "H5P",
+        "Frame-Based Learning"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-9fe4571ead78",
+      "question": "Was versteht man unter Frame-based Learning (FBL) mit H5P und welche Schritte sind für die Erstellung notwendig?",
+      "answer": "Frame-based Learning (FBL) mit H5P ist eine Methode zur Erstellung multimedialer Lernmaterialien, die auf der Desktop-Version von Lumi basiert. Die wesentlichen Schritte umfassen die Auswahl von Material aus einem Medientechnik-Modul, die multimediale Aufbereitung des Lernmaterials und die Entwicklung sowie Implementierung von Fragen zum Material, typischerweise in drei Abschnitten.",
+      "category": "Methoden",
+      "examRelevance": "high",
+      "sourcePages": [
+        31
+      ],
+      "highlights": [
+        "Frame-based Learning",
+        "FBL",
+        "H5P",
+        "Lumi",
+        "multimediale Aufbereitung",
+        "Fragen entwickeln"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-3c65e62cecf7",
+      "question": "Welche Kernmerkmale und Technologien kennzeichnen die Anwendung \"CampusView\"?",
+      "answer": "\"CampusView\" ist eine visuelle Anwendung, die durch Google Street View inspiriert wurde und auf der Unity-Engine basiert. Sie zeichnet sich durch die Kombination verschiedener Multimedia-Assets wie Panorama-Bilder, Überblendungen, Animationen und Audio für die Ambience aus. Wichtige Funktionen sind zudem die Benutzerinteraktion und die Navigation innerhalb der virtuellen Campus-Begehung.",
+      "category": "Technologie",
+      "examRelevance": "high",
+      "sourcePages": [
+        33
+      ],
+      "highlights": [
+        "CampusView",
+        "Google Street View",
+        "Unity",
+        "Multimedia",
+        "Assets",
+        "Panorama-Bilder",
+        "Überblendung",
+        "Animation"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-984dd6d01c1e",
+      "question": "Wie ist die technische Struktur einer virtuellen Campus-Begehung wie \"CampusView\" aufgebaut und welche Hardware wird dafür verwendet?",
+      "answer": "Die technische Struktur einer virtuellen Campus-Begehung wie \"CampusView\" basiert auf miteinander verbundenen 360°-Panoramen, die durch Übergangsanimationen verknüpft sind. Jedes Panorama ist mit einer spezifischen Ambience (Umgebungsgeräusche) versehen. Für die Erstellung der 360°-Panoramen wird eine 360°-Kamera wie die Insta360 ONE X verwendet. Eine Abstimmung mit anderen Personen ist für die Erstellung der Inhalte notwendig.",
+      "category": "Prozess",
+      "examRelevance": "high",
+      "sourcePages": [
+        34
+      ],
+      "highlights": [
+        "360°-Panoramen",
+        "Übergangsanimationen",
+        "Ambience",
+        "Insta360 ONE X",
+        "Abstimmung"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-034.webp"
+      ]
+    },
+    {
+      "id": "card-203dd7ddf542",
+      "question": "Welche Arten von Assets sind für die Erstellung einer virtuellen Campus-Begehung wie \"CampusView\" relevant und welche Besonderheiten gibt es dabei?",
+      "answer": "Für die Erstellung einer virtuellen Campus-Begehung sind hauptsächlich zwei Arten von Assets relevant: Bilder und Audioaufnahmen. Bei den Bildern handelt es sich um equirectangular oder Panorama-Bilder. Audioaufnahmen umfassen Ambience oder Umgebungsgeräusche. Es ist wichtig, eine hohe Qualität anzustreben und bei der Nutzung von Assets anderer Personen die entsprechende Abstimmung sicherzustellen.",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        35
+      ],
+      "highlights": [
+        "Assets",
+        "Bilder",
+        "equirectangular",
+        "Panorama",
+        "Audioaufnahmen",
+        "Ambience",
+        "Umgebungsgeräusche",
+        "Qualität"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-b389bb5bb781",
+      "question": "Was ist ein \"equirectangular image\" im Kontext von 360°-Panoramen und wofür wird es verwendet?",
+      "answer": "Ein \"equirectangular image\" ist ein spezielles Bildformat, das eine 360°-Panoramaansicht in einem rechteckigen Bild darstellt. Es wird verwendet, um die gesamte sphärische Umgebung in einer einzigen 2D-Datei zu speichern, die dann in Anwendungen wie \"CampusView\" für immersive virtuelle Begehungen projiziert und navigiert werden kann.",
+      "category": "Begriffe",
+      "examRelevance": "medium",
+      "sourcePages": [
+        36
+      ],
+      "highlights": [
+        "equirectangular image",
+        "360°-Panorama",
+        "sphärische Umgebung",
+        "2D-Datei"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-036.webp"
+      ]
+    },
+    {
+      "id": "card-b9cb0b368a3b",
+      "question": "Welche technischen Anforderungen und Spezifikationen sind für die Implementierung von \"CampusView\" in Unity zu beachten?",
+      "answer": "Für die Implementierung von \"CampusView\" in Unity (mittels Unity Student Version) sind spezifische Anforderungen zu erfüllen: Es werden 360-Grad-Panoramabilder mit einer Größe von 6080 x 3040 Pixeln benötigt. Zudem sind drei Ambience-Audio-Aufnahmen erforderlich, die eine Schleife von mindestens 30 Sekunden Länge aufweisen müssen. Eine feste, vorgegebene Namensgebung der Assets ist einzuhalten, und pixelgenaues Arbeiten ist notwendig.",
+      "category": "Technologie",
+      "examRelevance": "high",
+      "sourcePages": [
+        37
+      ],
+      "highlights": [
+        "Unity App",
+        "Unity Student Version",
+        "Panoramabilder",
+        "360 Grad",
+        "6080 x 3040 px",
+        "Ambience-Audio-Aufnahmen",
+        "Schleife min. 30 Sekunden",
+        "feste vorgegebene Namensgebung"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-2cc064694af1",
+      "question": "Welche Phasen durchläuft die Erstellung einer virtuellen Campus-Begehung wie \"CampusView\" in Bezug auf die Asset-Erstellung und App-Entwicklung?",
+      "answer": "Die Erstellung einer virtuellen Campus-Begehung wie \"CampusView\" durchläuft mehrere Phasen. Nach einer initialen Phase und der H5P-Integration folgen die Erstellung der CampusView-Assets, beginnend mit Bildern und anschließend Audio. Daraufhin wird eine Positionsdatei erstellt, bevor die eigentliche Unity (CV-App) entwickelt und integriert wird.",
+      "category": "Prozesse",
+      "examRelevance": "medium",
+      "sourcePages": [
+        38
+      ],
+      "highlights": [
+        "Asset-Erstellung",
+        "App-Entwicklung",
+        "Bilder",
+        "Audio",
+        "Positionsdatei",
+        "Unity (CV-App)"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-038.webp"
+      ]
+    },
+    {
+      "id": "card-f95b1dd2f850",
+      "question": "Nennen Sie zwei typische professionelle Anwendungsbereiche, für die Autorensysteme eingesetzt werden, basierend auf den vorgestellten Beispielen.",
+      "answer": "Basierend auf den vorgestellten Beispielen werden Autorensysteme typischerweise für die Erstellung von interaktiven Lern- und Unterhaltungsmedien, wie zum Beispiel \"Edutainment CDs\" (z.B. Löwenzahn), sowie für \"Point-of-Information-Systeme\" eingesetzt, die an öffentlichen Orten wie Bahnhöfen Informationen bereitstellen.",
+      "category": "Einsatzgebiete",
+      "examRelevance": "high",
+      "sourcePages": [
+        42
+      ],
+      "highlights": [
+        "Edutainment CDs",
+        "Point-of-Information-Systeme"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-042.webp"
+      ]
+    },
+    {
+      "id": "card-f1c894ef0e68",
+      "question": "Was versteht man unter Multimedia gemäß der Definition aus dem OMI-Modul AS, TFH Berlin?",
+      "answer": "Multimedia bezeichnet jede Produktion, in der Text, Grafik, Ton, Animation und Video in Kombination auftreten und die mittels eines Computers oder eines anderen geeigneten Gerätes betrachtet und gehört werden können.",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        55
+      ],
+      "highlights": [
+        "Text",
+        "Grafik",
+        "Ton",
+        "Animation",
+        "Video",
+        "Kombination",
+        "Computer",
+        "geeignetes Gerät"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-d7f579d4941c",
+      "question": "Erklären Sie den Begriff \"interaktive Multimedia\".",
+      "answer": "Interaktive Multimedia liegt vor, wenn der Nutzer des Produktes die Möglichkeit hat, auf die zeitliche Abfolge und auf die Auswahl von Teilen des Produktes Einfluss zu nehmen.",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        56
+      ],
+      "highlights": [
+        "Nutzer",
+        "Einfluss",
+        "zeitliche Abfolge",
+        "Auswahl von Teilen"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-e2fc163a6d92",
+      "question": "Was ist Hypermedia und wie unterscheidet es sich von HyperText?",
+      "answer": "Hypermedia ist eine Erweiterung von HyperText. Im Gegensatz zu HyperText, wo nur Text als Link dienen kann, können bei Hypermedia alle verfügbaren Medien (Text, Grafik, Ton, Video etc.) als Link fungieren.",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        57
+      ],
+      "highlights": [
+        "Erweiterung von HyperText",
+        "alle verfügbaren Medien",
+        "Link"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-ef80ad133af0",
+      "question": "Welche Vorteile bieten multimediale Informationen und wie beeinflussen sie die Aufnahmehähigkeit von Wissen?",
+      "answer": "Multimediale Informationen werden von den meisten Anwendern bevorzugt, erzeugen mehr Aufmerksamkeit und erhöhen die Aufnahmefähigkeit von Wissen für unser Gedächtnis. Die Aufnahmehähigkeit ist bei interaktiven Medien am höchsten, gefolgt von audiovisuellen und auditiven Medien.",
+      "category": "Themengebiete",
+      "examRelevance": "high",
+      "sourcePages": [
+        58
+      ],
+      "highlights": [
+        "bevorzugt",
+        "Aufmerksamkeit",
+        "Aufnahmefähigkeit",
+        "interaktiv",
+        "audiovisuell",
+        "auditiv"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-058.webp"
+      ]
+    },
+    {
+      "id": "card-79cbd4282d2b",
+      "question": "Nennen und beschreiben Sie die drei Dimensionen zur Klassifizierung von Kiosksystemen.",
+      "answer": "Kiosksysteme können anhand von drei Dimensionen klassifiziert werden: dem Interaktionsgrad, dem Verteilungsgrad und den unterstützten Medien. Der Interaktionsgrad beschreibt, wie stark der Nutzer mit dem System interagieren kann. Der Verteilungsgrad gibt an, wie weit das System verbreitet ist oder wie viele Standorte es gibt. Die unterstützten Medien beziehen sich auf die Arten von Medien (Text, Bild, Ton, Video), die das Kiosksystem verarbeiten und darstellen kann.",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        60
+      ],
+      "highlights": [
+        "Interaktionsgrad",
+        "Verteilungsgrad",
+        "unterstützte Medien",
+        "Klassifizierung"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-060.webp"
+      ]
+    },
+    {
+      "id": "card-1ec7a5912ec6",
+      "question": "Welche Arten von Kiosksystemen werden nach ihrem Interaktionsgrad unterschieden und wie sind diese jeweils charakterisiert?",
+      "answer": "Nach dem Interaktionsgrad werden drei Arten von Kiosksystemen unterschieden: 1. Animationskiosk: Bietet keine Interaktion, dient primär der Präsentation von Inhalten. 2. Interaktionskiosk: Ermöglicht eine Interaktion mit dem Nutzer, beispielsweise zur Informationsabfrage. 3. Transaktionskiosk: Bietet Interaktion mit Waren- oder Geldaustausch, also die Durchführung von Transaktionen.",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        61
+      ],
+      "highlights": [
+        "Animationskiosk",
+        "Interaktionskiosk",
+        "Transaktionskiosk",
+        "Interaktionsgrad"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-3756f82f3092",
+      "question": "Welche Klassifikationen von Kiosksystemen gibt es hinsichtlich ihres Verteilungsgrades und der unterstützten Medien?",
+      "answer": "Kiosksysteme können nach zwei Kriterien klassifiziert werden: 1. Verteilungsgrad: lokale/autarke Kiosksysteme (funktionieren eigenständig) und netz-/webbasierte Kiosksysteme (benötigen Netzwerkverbindung). 2. Unterstützte Medien: multimediale Kiosksysteme (nutzen verschiedene Medien wie Text, Grafik, Audio, Video) und text- und grafikbasierte Kiosksysteme (beschränken sich hauptsächlich auf Text- und grafische Inhalte).",
+      "category": "Begriffe",
+      "examRelevance": "medium",
+      "sourcePages": [
+        62
+      ],
+      "highlights": [
+        "Verteilungsgrad",
+        "lokale/autarke Kiosksysteme",
+        "netz-/webbasierte Kiosksysteme",
+        "unterstützte Medien",
+        "multimediale Kiosksysteme",
+        "text- und grafikbasierte Kiosksysteme"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-78c8d98cb119",
+      "question": "Was versteht man unter einem Point-of-Information (POI) System und welche Merkmale und Beispiele kennzeichnen es?",
+      "answer": "Ein Point-of-Information (POI) System ist ein Kiosksystem, das primär der Bereitstellung von Informationen dient. Eine Interaktion mit dem Nutzer ist dabei möglich, aber es findet kein direkter Waren- oder Geldaustausch statt. Beispiele hierfür sind Terminals zur Produktvorstellung auf Messen oder Informationssysteme in Museen.",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        63
+      ],
+      "highlights": [
+        "Point-of-Information",
+        "POI-System",
+        "nur Information",
+        "Interaktion möglich"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-9dfdb2f297a2",
+      "question": "Erläutern Sie den Begriff Point-of-Service (POS) System und nennen Sie typische Anwendungsbeispiele.",
+      "answer": "Ein Point-of-Service (POS) System ist ein Kiosksystem, bei dem eine Interaktion zwingend notwendig ist, um Transaktionen durchzuführen. Diese Transaktionen können den Austausch von Waren (z.B. Geldautomaten, Getränkeautomaten, DHL-Packstationen) oder die Bereitstellung von Dienstleistungen und Informationen (z.B. Check-In/Check-Out Systeme, Registrierungssysteme) umfassen.",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        64
+      ],
+      "highlights": [
+        "Point-of-Service",
+        "POS-System",
+        "Interaktion notwendig",
+        "Transaktionen werden durchgeführt"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-74cab1420b5c",
+      "question": "Nennen und erläutern Sie die wesentlichen Vorteile von Kiosksystemen.",
+      "answer": "Kiosksysteme bieten mehrere Vorteile: 1. 24/7 Service: Sie sind rund um die Uhr verfügbar. 2. Interaktion auch in suboptimalem Umfeld: Sie ermöglichen die Interaktion auch unter schwierigen Bedingungen, wie beispielsweise bei hohem Lärmpegel. 3. Beantwortung von Routinefragen (FAQ): Sie können häufig gestellte Fragen automatisiert beantworten, was zu Einsparungen im Service-Bereich führt. 4. Größere Zielgruppe: Durch die Möglichkeit, Informationen in mehreren Sprachen anzubieten, können sie eine breitere Zielgruppe erreichen.",
+      "category": "Themengebiete",
+      "examRelevance": "high",
+      "sourcePages": [
+        65,
+        66
+      ],
+      "highlights": [
+        "24/7 Service",
+        "suboptimalem Umfeld",
+        "Routinefragen (FAQ)",
+        "Einsparungen im Service-Bereich",
+        "größere Zielgruppe",
+        "mehreren Sprachen"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-3224847a39a7",
+      "question": "Was versteht man unter Navigation im Kontext von Anwendungen und welche grundlegenden Arten der Navigation werden unterschieden?",
+      "answer": "Navigation beschreibt die Art und Weise, wie ein Anwender sich durch eine Anwendung bewegen kann. Es werden drei grundlegende Arten unterschieden: 1. Lineare Navigation (sequenziell vorwärts/rückwärts). 2. Hierarchische (nicht-lineare) Navigation (von übergeordneten zu untergeordneten Ebenen). 3. Offene (Netzwerk) Navigation (keine explizit vorgegebenen Pfade). Es ist entscheidend, die richtige Navigationsart für das jeweilige Projekt zu wählen.",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        67
+      ],
+      "highlights": [
+        "Navigation",
+        "lineare Navigation",
+        "hierarchische nicht-lineare Navigation",
+        "offene (Netzwerk) Navigation",
+        "richtige Navigationsart"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-770fd9b9e1c2",
+      "question": "Beschreiben Sie die lineare Navigation und nennen Sie typische Anwendungsbeispiele.",
+      "answer": "Bei der linearen Navigation bewegt sich der Benutzer sequenziell, ähnlich dem Blättern in einem Buch, entweder vorwärts oder rückwärts durch die Inhalte. Es gibt einen klaren, vorgegebenen Pfad. Typische Anwendungsbeispiele sind selbstablaufende Präsentationen (z.B. auf Messen, im Geschäft oder Museum) und Benutzerhandbücher.",
+      "category": "Methoden",
+      "examRelevance": "high",
+      "sourcePages": [
+        68
+      ],
+      "highlights": [
+        "Lineare Navigation",
+        "blättert vorwärts oder rückwärts",
+        "Selbstablaufende Präsentationen",
+        "Benutzerhandbücher"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-068.webp"
+      ]
+    },
+    {
+      "id": "card-4ad4aca3ae25",
+      "question": "Erläutern Sie die hierarchische Navigation und geben Sie ein praktisches Beispiel an.",
+      "answer": "Die hierarchische Navigation ist eine nicht-lineare Navigationsform, bei der Inhalte in über- und untergeordneten Ebenen strukturiert sind. Obere Ebenen bieten Zusammenfassungen oder Übersichten, während untere Ebenen spezifischere Informationen enthalten. Der Benutzer bewegt sich von allgemeinen zu detaillierteren Inhalten. Ein klassisches Beispiel sind Kategoriesysteme in Web-Shops.",
+      "category": "Methoden",
+      "examRelevance": "high",
+      "sourcePages": [
+        69
+      ],
+      "highlights": [
+        "Hierarchische Navigation",
+        "obere Ebenen",
+        "Zusammenfassungen",
+        "Übersichten",
+        "untere Ebenen",
+        "spezifischer",
+        "Kategoriesysteme in Web-Shops"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-069.webp"
+      ]
+    },
+    {
+      "id": "card-44d32425d3ea",
+      "question": "Was kennzeichnet die offene (Netzwerk) Navigation und wo findet sie Anwendung?",
+      "answer": "Die offene (Netzwerk) Navigation zeichnet sich dadurch aus, dass es keine explizit vorgegebenen Navigationspfade gibt. Der Benutzer kann sich relativ frei zwischen den Inhalten bewegen, die im Extremfall voll vernetzt sein können. Diese Navigationsform ermöglicht eine hohe Flexibilität. Beispiele hierfür sind Wikipedia (Nachschlagewerke) oder Adventure Games.",
+      "category": "Methoden",
+      "examRelevance": "high",
+      "sourcePages": [
+        70
+      ],
+      "highlights": [
+        "Offene (Netzwerk) Navigation",
+        "keine explizit vorgegebene Navigationspfade",
+        "voll vernetzt",
+        "Wikipedia",
+        "Adventure Games"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-070.webp"
+      ]
+    },
+    {
+      "id": "card-b786bfad878c",
+      "question": "Welche Arten von Navigationsstrukturen sind in der Praxis häufig anzutreffen?",
+      "answer": "In der Praxis sind häufig Mischformen von Navigationsstrukturen anzutreffen. Dazu gehören beispielsweise die lineare Navigation mit Alternativen oder eine Kombination aus linearer und hierarchischer Navigation, um den unterschiedlichen Anforderungen gerecht zu werden.",
+      "category": "Themengebiete",
+      "examRelevance": "medium",
+      "sourcePages": [
+        71
+      ],
+      "highlights": [
+        "Mischformen",
+        "lineare Navigation mit Alternativen",
+        "Kombination von linearer und hierarchischer Navigation"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-071.webp"
+      ]
+    },
+    {
+      "id": "card-475459c6b5cb",
+      "question": "Warum ist die Auswahl einer Navigationsstruktur wichtig und wovon ist sie primär abhängig?",
+      "answer": "Die Auswahl einer Navigationsstruktur ist eine wichtige Überlegung in jedem Projekt, da sie maßgeblich die Benutzerführung und Effizienz beeinflusst. Sie ist primär abhängig vom Einsatzzweck der Anwendung, da unterschiedliche Ziele (z.B. Informationsabfrage, Unterhaltung) verschiedene Navigationsansätze erfordern.",
+      "category": "Themengebiete",
+      "examRelevance": "high",
+      "sourcePages": [
+        72
+      ],
+      "highlights": [
+        "wichtige Überlegung",
+        "abhängig vom Einsatzzweck"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-563ac25578f0",
+      "question": "Nennen und beschreiben Sie zwei unterschiedliche Anwendungszwecke für Navigationsstrukturen, die über die reine Informationsabfrage hinausgehen.",
+      "answer": "Zwei unterschiedliche Anwendungszwecke sind: 1. **Unterhaltung (z.B. Computerspiele)**: Hier wird das Navigieren selbst zum Ziel, oft verbunden mit dem Auffinden von versteckten Links oder dem Erkunden einer virtuellen Welt. 2. **Freies Browsen (z.B. Online-Shops)**: Bei dieser Art der Navigation ist es entscheidend, dem Anwender jederzeit zu zeigen, wo er sich innerhalb der Struktur befindet (z.B. durch Breadcrumbs oder Kategorieanzeigen), auch wenn er sich frei bewegt.",
+      "category": "Themengebiete, Beispiele",
+      "examRelevance": "medium",
+      "sourcePages": [
+        73
+      ],
+      "highlights": [
+        "Unterhaltung (Computerspiel)",
+        "Navigieren wird zum Ziel an sich",
+        "Auffinden von versteckten Links",
+        "Freies Browsen",
+        "Anwender trotzdem zeigen wo man sich befindet"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-80059da9650f",
+      "question": "Welche gängigen Navigationselemente werden in Multimedia-Anwendungen verwendet?",
+      "answer": "Gängige Navigationselemente in Multimedia-Anwendungen umfassen Schaltflächen/Buttons, Menüs, Pulldown-Menüs, Suchfunktionen, Inhaltsverzeichnisse, Indizes, Sitemaps und die History-Funktion.",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        74
+      ],
+      "highlights": [
+        "Schaltflächen / Buttons",
+        "Menü",
+        "Pulldown-Menü",
+        "Suchfunktion",
+        "Inhaltsverzeichnis",
+        "Index",
+        "Sitemap",
+        "History"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-074.webp"
+      ]
+    },
+    {
+      "id": "card-8ad3b19bd063",
+      "question": "Wie werden Navigationselemente häufig gestaltet und worauf sollte man bei der Verwendung achten?",
+      "answer": "Die Gestaltung der Navigationselemente erfolgt meist mit **Piktogrammen**. Bei der Verwendung, insbesondere von selbst erstellten Piktogrammen, sollte man vorsichtig sein und sicherstellen, dass diese eindeutig und universell verständlich sind, um Missverständnisse und eine schlechte Bedienbarkeit zu vermeiden.",
+      "category": "Gestaltung",
+      "examRelevance": "medium",
+      "sourcePages": [
+        75
+      ],
+      "highlights": [
+        "Piktogrammen",
+        "selbst erstellten Piktogrammen"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-075.webp"
+      ]
+    },
+    {
+      "id": "card-6a955b06964a",
+      "question": "Definieren Sie 'Bedienbarkeit' im Kontext von Multimedia-Produkten und nennen Sie Faktoren, an die sie angepasst werden muss.",
+      "answer": "**Bedienbarkeit** (Usability) ist ein wichtiges Kriterium bei der allgemeinen Beurteilung eines Multimedia-Produkts. Sie beschreibt, wie effektiv, effizient und zufriedenstellend Benutzer bestimmte Ziele erreichen können. Die Bedienbarkeit muss an die **Zielgruppe** (z.B. unter Berücksichtigung von Behinderungen) und den **Einsatzort** (z.B. Umgebungsfaktoren wie Lärm oder blendende Sonne) angepasst werden.",
+      "category": "Begriffe, Themengebiete",
+      "examRelevance": "high",
+      "sourcePages": [
+        76
+      ],
+      "highlights": [
+        "Bedienbarkeit",
+        "wichtiges Kriterium",
+        "Zielgruppe",
+        "Behinderungen",
+        "Einsatzort",
+        "Lärm",
+        "Sonne blendet"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-57eae838d8e3",
+      "question": "Welche Kriterien sind für eine gute Bedienbarkeit von Multimedia-Anwendungen entscheidend?",
+      "answer": "Entscheidende Kriterien für eine gute Bedienbarkeit sind: eine **einfache Bedienung**, die schnellen und einfachen Zugang zu Informationen ermöglicht; das **einfache Erkennen neuer Funktionen** durch klare Kennzeichnung oder Hilfefunktionen; ein starker **Wiedererkennungseffekt**, damit Benutzer sich nicht immer wieder neu einarbeiten müssen; eine **ansprechende und konsistente Gestaltung der Bedienelemente**; und die Beachtung von **Piktogramm-Standards**.",
+      "category": "Kriterien",
+      "examRelevance": "high",
+      "sourcePages": [
+        77
+      ],
+      "highlights": [
+        "Einfache Bedienung",
+        "Neue Funktionen einfach erkennen",
+        "Wiedererkennungseffekt",
+        "Gestaltung der Bedienelemente",
+        "Piktogrammen",
+        "Standards beachten"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-11525dc7b762",
+      "question": "Nennen Sie zwei grundlegende Gestaltungsgrundsätze bezüglich der Anordnung und Anzahl von Navigationselementen.",
+      "answer": "Zwei grundlegende Gestaltungsgrundsätze sind: 1. **Anordnung der Navigationselemente**: Diese sollten immer an derselben Stelle platziert werden, um **Konsistenz** und Vorhersehbarkeit für den Benutzer zu gewährleisten. 2. **Anzahl der Navigationselemente**: Hier gilt das Prinzip 'weniger ist mehr', d.h., die Elemente sollten auf die wichtigsten reduziert werden, um den Benutzer nicht zu überfordern und die Übersichtlichkeit zu erhöhen.",
+      "category": "Gestaltungsgrundsätze",
+      "examRelevance": "high",
+      "sourcePages": [
+        78
+      ],
+      "highlights": [
+        "Anordnung der Navigationselemente",
+        "derselben Stelle (Konsistenz)",
+        "Anzahl der Navigationselemente",
+        "weniger ist mehr",
+        "wichtigsten Elemente reduzieren"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-51e27b250f55",
+      "question": "Erläutern Sie zwei weitere Gestaltungsgrundsätze, die sich auf die Klarheit der Interaktion und die Effizienz der Navigation konzentrieren.",
+      "answer": "Zwei weitere Gestaltungsgrundsätze sind: 1. **Durchschaubarkeit der Bedienung**: Interaktions- und Navigationsmöglichkeiten müssen für den Benutzer immer klar und verständlich sein. 2. **Minimierung der Interaktion**: Dies bedeutet, kurze Pfade zu den gewünschten Informationen zu schaffen und die Anzahl der Klicks zu minimieren, um die Effizienz und Benutzerzufriedenheit zu steigern.",
+      "category": "Gestaltungsgrundsätze",
+      "examRelevance": "high",
+      "sourcePages": [
+        79
+      ],
+      "highlights": [
+        "Durchschaubarkeit der Bedienung",
+        "Interaktions- und Navigationsmöglichkeiten immer klar",
+        "Minimierung der Interaktion",
+        "kurze Pfade",
+        "Klicks minimieren"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-2ffd642d81dd",
+      "question": "Was ist ein 'Autorensystem' und wofür wird es primär eingesetzt?",
+      "answer": "Ein **Autorensystem** ist eine Arbeitsumgebung, die von Autoren genutzt wird, um multimediale Anwendungen zu erstellen. Es stellt grafische und interaktive Hilfsmittel zur Verfügung, die den Erstellungsprozess vereinfachen und beschleunigen, indem sie die Programmierung komplexer Funktionen abstrahieren.",
+      "category": "Begriffe, Definition",
+      "examRelevance": "high",
+      "sourcePages": [
+        80
+      ],
+      "highlights": [
+        "Autorensystem",
+        "Arbeitsumgebungen für Autoren",
+        "Erstellung multimedialer Anwendungen",
+        "grafischer, interaktiver Hilfsmittel"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-770ace29195a",
+      "question": "Welche Merkmale kennzeichnen den einfachen Einstieg in Autorensysteme und wie kann deren volle Leistungsfähigkeit erreicht werden?",
+      "answer": "Der einfache Einstieg in Autorensysteme zeichnet sich dadurch aus, dass Objekte per Drag & Drop platziert werden können, das Prinzip \"What you see is what you get\" (WYSIWYG) angewendet wird und keine Programmierkenntnisse notwendig sind. Die volle Leistungsfähigkeit eines Autorensystems kann jedoch durch die Benutzung von Skriptsprachen erzielt werden.",
+      "category": "Themengebiete",
+      "examRelevance": "high",
+      "sourcePages": [
+        81
+      ],
+      "highlights": [
+        "Drag & Drop",
+        "WYSIWYG",
+        "keine Programmierkenntnisse",
+        "Skriptsprachen",
+        "volle Leistungsfähigkeit"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-d13b463a0663",
+      "question": "Welche Medientypen können in Autorensystemen direkt bearbeitet werden und welche erfordern in der Regel einen Import?",
+      "answer": "Autorensysteme bieten einfache Editoren für Text und Grafik (sowohl Bitmap als auch Vektoren). Für Audio, Video und Animationen sind in der Regel keine direkten Editoren integriert, diese Medientypen müssen stattdessen importiert werden.",
+      "category": "Themengebiete",
+      "examRelevance": "medium",
+      "sourcePages": [
+        82
+      ],
+      "highlights": [
+        "Editoren",
+        "Text",
+        "Grafik",
+        "Bitmap",
+        "Vektoren",
+        "Import",
+        "Audio",
+        "Video"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-12550fdeb432",
+      "question": "Definiere den Begriff \"Asset\" im Kontext von Autorensystemen für Multimedia-Anwendungen.",
+      "answer": "Im Kontext von Autorensystemen sind \"Assets\" Objekte, die einem Autorensystem zur Erstellung einer Multimedia-Anwendung zur Verfügung stehen. Der englische Begriff \"Asset\" bedeutet allgemein Bestand, Wirtschaftsgut oder Posten auf der Aktivseite.",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        83
+      ],
+      "highlights": [
+        "Asset",
+        "Objekte",
+        "Autorensystem",
+        "Multimedia-Anwendung"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-ebc944402326",
+      "question": "Nenne und beschreibe die drei Haupt-Objektklassen von Assets in Autorensystemen und gib jeweils Beispiele an.",
+      "answer": "Die drei Haupt-Objektklassen von Assets sind: 1. Medienobjekte (z.B. Audio, Video, Bilder, Grafik, Text, Animation), die die eigentlichen Inhalte darstellen. 2. Interaktionsobjekte (z.B. Schaltflächen, Eingabefelder, Regler, Schieber), die die Benutzerinteraktion ermöglichen. 3. Applikationsobjekte (z.B. Formulare, Applets, Datenbanken), die spezifische Anwendungsfunktionalitäten bereitstellen.",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        84
+      ],
+      "highlights": [
+        "Objektklassen",
+        "Medienobjekte",
+        "Interaktionsobjekte",
+        "Applikationsobjekte",
+        "Audio",
+        "Video",
+        "Text",
+        "Schaltfläche"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-01a66080d65e",
+      "question": "Beschreibe den Gesamtprozess der Erstellung und Präsentation einer multimedialen Anwendung unter Verwendung eines Autorensystems, basierend auf dem dargestellten Schema.",
+      "answer": "Der Prozess beginnt mit verschiedenen Objektarten wie Medienobjekten (Text, Grafik, Bild, Audio, Video, Animation), Applikationsobjekten (Formulare, Applets, Datenbanken, XML-Schnittstellen) und Interaktionsobjekten (Menüs, Buttons, Schieberegler, Links). Diese werden in einem Autorensystem verarbeitet, um eine multimediale Präsentation zu erstellen. Diese Präsentation kann dann über verschiedene Ausgabemedien (Monitor, Drucker, Belichter, TV, Lautsprecher, WAP), Verbindungsarten (CD-ROM, DVD, Papier, HTML, Video, Applikation) und Interaktionsmedien (Tastatur, Maus, Joystick, Sprache, Touchscreen, Mobiltelefon) genutzt werden.",
+      "category": "Prozesse",
+      "examRelevance": "high",
+      "sourcePages": [
+        85
+      ],
+      "highlights": [
+        "Autorensystem",
+        "multimediale Präsentation",
+        "Medienobjekte",
+        "Applikationsobjekte",
+        "Interaktionsobjekte",
+        "Ausgabemedien",
+        "Verbindungsarten",
+        "Anwendungsarten"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-085.webp"
+      ]
+    },
+    {
+      "id": "card-01a9a4ef0a84",
+      "question": "Welche verschiedenen Arten von Medienobjekten werden in der Multimedia-Entwicklung unterschieden?",
+      "answer": "In der Multimedia-Entwicklung werden folgende Medienobjekte unterschieden: Text, Grafik, Zeichnungen, Bilder, Audio, Video, Animation und Simulation.",
+      "category": "Begriffe",
+      "examRelevance": "medium",
+      "sourcePages": [
+        86
+      ],
+      "highlights": [
+        "Medienobjekte",
+        "Text",
+        "Grafik",
+        "Bilder",
+        "Audio",
+        "Video",
+        "Animation",
+        "Simulation"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-8fc03487817c",
+      "question": "Warum ist Text der wichtigste Informationsträger in Multimedia-Anwendungen und welche Methoden gibt es zur Texterfassung?",
+      "answer": "Text gilt als der wichtigste Informationsträger in Multimedia-Anwendungen, da er grundlegende Informationen präzise vermitteln kann. Zur Texterfassung gibt es verschiedene Methoden: die manuelle Eingabe über die Tastatur, das Importieren aus vorhandenen Dateien, das Einscannen mittels OCR-Software zur Umwandlung von Bildern in editierbaren Text oder das Einscannen als reines Bild, wobei der Text dann nicht editierbar ist.",
+      "category": "Themengebiete",
+      "examRelevance": "medium",
+      "sourcePages": [
+        87
+      ],
+      "highlights": [
+        "Text",
+        "Informationsträger",
+        "Erfassung",
+        "Tastatur",
+        "Dateien",
+        "OCR-Software",
+        "Bild"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-7f4664693e32",
+      "question": "Welche Rolle spielen Grafiken in multimedialen Präsentationen und welche zwei Hauptarten von Grafiken werden unterschieden?",
+      "answer": "Grafiken dienen als Ergänzungen zum Text und haben die Aufgabe, komplexe Strukturen visuell darzustellen (\"Ein Bild sagt mehr als 1000 Worte\"), Präsentationen aufzulockern und durch ein einheitliches Design zusammenzuhalten. Es werden zwei Hauptarten von Grafiken unterschieden: Pixelgrafiken und Vektorgrafiken.",
+      "category": "Themengebiete",
+      "examRelevance": "high",
+      "sourcePages": [
+        89
+      ],
+      "highlights": [
+        "Grafiken",
+        "Ergänzungen zum Text",
+        "komplexe Strukturen",
+        "Präsentation",
+        "Pixelgrafik",
+        "Vektorgrafik"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-342b1715c0ed",
+      "question": "Definiere Pixelgrafik und erkläre die Bedeutung der Auflösung (dpi) sowie deren Auswirkungen auf Qualität und Dateigröße.",
+      "answer": "Eine Pixelgrafik ist ein Bild, das in kleine Bildelemente, sogenannte Pixel (\"picture elements\"), zerlegt wird. Jedem Pixel wird ein spezifischer Farbwert zugewiesen. Die Auflösung einer Pixelgrafik wird in dpi (dots per inch) angegeben und bestimmt die Detailgenauigkeit. Eine höhere Auflösung führt zu einer besseren Bildqualität, hat aber den Nachteil, dass die Dateien größer werden und mehr Speicherplatz benötigen.",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        90
+      ],
+      "highlights": [
+        "Pixelgrafik",
+        "Bildelemente",
+        "Pixel",
+        "Farbwert",
+        "Auflösung",
+        "dpi",
+        "Qualität",
+        "Dateigröße"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-023d981aec2b",
+      "question": "Welche gängigen Werkzeuge und Dateiformate werden für Pixelgrafiken verwendet?",
+      "answer": "Für Pixelgrafiken werden typischerweise Werkzeuge wie Adobe Photoshop, The Gimp, Paint Shop Pro oder Corel Photo-Paint eingesetzt. Gängige Dateiformate sind TIFF, PICT, BMP, GIF, JPG, PNG und PSD.",
+      "category": "Begriffe, Tools",
+      "examRelevance": "medium",
+      "sourcePages": [
+        91
+      ],
+      "highlights": [
+        "Pixelgrafiken",
+        "Adobe Photoshop",
+        "The Gimp",
+        "TIFF",
+        "JPG",
+        "PNG",
+        "PSD"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-d26e150d34aa",
+      "question": "Erläutere die grundlegenden Eigenschaften und Vorteile von Vektorgrafiken.",
+      "answer": "Vektorgrafiken sind aus geometrischen Elementen wie Linien, Polygonen, Kreisen (Segmenten) und mathematischen Kurven (Bézier- / Splines) aufgebaut. Sie enthalten Farbinformationen für Hülle und Füllung sowie Farbverläufe. Ein wesentlicher Vorteil ist, dass sie weniger Speicherplatz als Pixelgrafiken benötigen und beliebig skalierbar sind, ohne Qualitätsverluste zu erleiden.",
+      "category": "Begriffe, Eigenschaften",
+      "examRelevance": "high",
+      "sourcePages": [
+        92
+      ],
+      "highlights": [
+        "Vektorgrafiken",
+        "geometrischen Elementen",
+        "Linien",
+        "Polygone",
+        "Kreise",
+        "mathematischen Kurven",
+        "Bézier- / Splines",
+        "Farbinformationen"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-47ef2e937b2c",
+      "question": "Nenne typische Werkzeuge und Dateiformate für die Erstellung und Bearbeitung von Vektorgrafiken.",
+      "answer": "Typische Werkzeuge für Vektorgrafiken sind Adobe Illustrator, CorelDraw, Macromedia Freehand, Paint Shop Pro, Visio und MS Word. Relevante Dateiformate umfassen EPS, SVG, DXF, WMF, AI und PDF.",
+      "category": "Begriffe, Tools",
+      "examRelevance": "medium",
+      "sourcePages": [
+        93
+      ],
+      "highlights": [
+        "Vektorgrafiken",
+        "Adobe Illustrator",
+        "CorelDraw",
+        "EPS",
+        "SVG",
+        "DXF",
+        "WMF",
+        "AI"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-217a298fe792",
+      "question": "Beschreibe die verschiedenen Arten von Audio-Sequenzen und den Prozess der Audio-Erfassung und -Bearbeitung.",
+      "answer": "Audio-Sequenzen können gesprochenen Text, Hintergrundmusik oder Signalton umfassen. Die Erfassung erfolgt durch Aufnehmen mittels Recorder und Mikrofon, wobei zwischen analogen und digitalen Quellen unterschieden wird. Der Prozess beinhaltet gegebenenfalls eine analoge Bearbeitung, die Digitalisierung analoger Quellen und die anschließende digitale Bearbeitung.",
+      "category": "Begriffe, Prozesse",
+      "examRelevance": "medium",
+      "sourcePages": [
+        94
+      ],
+      "highlights": [
+        "Audio-Sequenzen",
+        "gesprochenen Text",
+        "Hintergrundmusik",
+        "Signalton",
+        "Erfassung",
+        "Aufnehmen",
+        "Recorder",
+        "Mikrofon"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-c6561c6fd8e3",
+      "question": "Welche Werkzeuge und Dateiformate werden typischerweise für Audio-Anwendungen verwendet?",
+      "answer": "Für Audio-Anwendungen werden Werkzeuge wie Audacity, Sonic Foundry Sound Forge, BIAS Peak, SonicWorx, WaveLab, Audition, Pro Tools, Logic, Cubase und Garageband (oft für Multitrack-Aufnahmen) genutzt. Gängige Dateiformate sind AIFF, AU, WAV, MP3 und M4A. MIDI dient der Ansteuerung von digitalen Instrumenten.",
+      "category": "Begriffe, Tools",
+      "examRelevance": "medium",
+      "sourcePages": [
+        95
+      ],
+      "highlights": [
+        "Audio-Anwendungen",
+        "Audacity",
+        "Pro Tools",
+        "Logic",
+        "AIFF",
+        "AU",
+        "WAV",
+        "MP3"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-c59a83a08b36",
+      "question": "Erläutere die Merkmale von Video-Sequenzen und die Schritte der Video-Erfassung und -Bearbeitung.",
+      "answer": "Video-Sequenzen dienen dazu, Situationen und Abläufe authentisch darzustellen, wobei der hohe Speicherplatzbedarf oft ein Problem darstellt, was zu kurzen Video-Clips führt. Die Erfassung erfolgt durch Aufnahmen mit einer Kamera, entweder analog oder digital. Die Bearbeitung umfasst gegebenenfalls eine analoge Bearbeitung, die Digitalisierung analoger Quellen, die digitale Bearbeitung sowie Komprimierung und Konvertierung.",
+      "category": "Begriffe, Prozesse",
+      "examRelevance": "medium",
+      "sourcePages": [
+        96
+      ],
+      "highlights": [
+        "Video-Sequenzen",
+        "Situationen und Abläufe",
+        "Speicherplatz",
+        "Video-Clips",
+        "Erfassung",
+        "Aufnahmen mit Kamera",
+        "Analog",
+        "Digital"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-11f3bf78ded0",
+      "question": "Nenne gängige Werkzeuge und Dateiformate für die Bearbeitung und Speicherung von Videoinhalten.",
+      "answer": "Für die Bearbeitung von Videoinhalten werden Werkzeuge wie Adobe Premiere, Avid, Final Cut Pro, Ulead MediaStudio Pro und SONY Vegas verwendet. Gängige Dateiformate für die Speicherung sind MP4, MPEG, WMV, AVI, MKV, WEBM und AVCHD.",
+      "category": "Begriffe, Tools",
+      "examRelevance": "medium",
+      "sourcePages": [
+        97
+      ],
+      "highlights": [
+        "Videoinhalten",
+        "Adobe Premiere",
+        "Avid",
+        "Final Cut Pro",
+        "SONY Vegas",
+        "MP4",
+        "MPEG",
+        "WMV"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-af0010650d51",
+      "question": "Wozu dienen Animationen, welche Vor- und Nachteile haben sie und wie werden sie erstellt?",
+      "answer": "Animationen dienen dazu, Prozesse und Abläufe darzustellen. Ein Vorteil ist, dass Bewegung Aufmerksamkeit auf sich zieht. Ein Nachteil kann sein, dass zu viel Bewegung als störend empfunden wird. Die Erstellung erfolgt entweder durch Aufnahmen mit der Kamera (Bild für Bild, analog/digital) oder durch die Benutzung spezieller Animations-Tools.",
+      "category": "Begriffe, Eigenschaften, Prozesse",
+      "examRelevance": "medium",
+      "sourcePages": [
+        98
+      ],
+      "highlights": [
+        "Animationen",
+        "Prozesse und Abläufe darstellen",
+        "Bewegung zieht Aufmerksamkeit auf sich",
+        "störend empfunden",
+        "Erstellung",
+        "Aufnahmen mit Kamera",
+        "Bild für Bild",
+        "Animations-Tools"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-c75c7c577c62",
+      "question": "Welche Werkzeuge und Dateiformate sind für die Erstellung von Animationen relevant?",
+      "answer": "Für die Erstellung von Animationen sind Werkzeuge wie Adobe Photoshop, Adobe After Effects, Maya, GifBuilder und GIFmation relevant. Die Dateiformate sind oft ähnlich wie bei Video, zusätzlich sind SWF und animierte GIFs (GIF) von Bedeutung.",
+      "category": "Begriffe, Tools",
+      "examRelevance": "medium",
+      "sourcePages": [
+        99
+      ],
+      "highlights": [
+        "Animationen",
+        "Adobe Photoshop",
+        "Adobe After Effects",
+        "Maya",
+        "GifBuilder",
+        "GIFmation",
+        "SWF",
+        "GIF (animated)"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-099.webp"
+      ]
+    },
+    {
+      "id": "card-e1fdc38ac3a0",
+      "question": "Was sind typische Interaktionsobjekte in Autorensystemen und woher stammen sie?",
+      "answer": "Typische Interaktionsobjekte sind Links, Buttons, Menüs, Schieberegler und Tab-Blätter. Sie stammen aus der Entwicklungsumgebung (Autorensystem), dem Betriebssystem oder speziellen GUI-Bibliotheken.",
+      "category": "Begriffe, Autorensysteme",
+      "examRelevance": "high",
+      "sourcePages": [
+        100
+      ],
+      "highlights": [
+        "Interaktionsobjekte",
+        "Links",
+        "Buttons",
+        "Menüs",
+        "Schieberegler",
+        "Tab-Blätter",
+        "Entwicklungsumgebung",
+        "Autorensystem"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-f7462cff4b07",
+      "question": "Welche Arten von Applikationsobjekten können in Autorensystemen verwendet werden und woher stammen diese typischerweise?",
+      "answer": "In Autorensystemen können verschiedene Applikationsobjekte verwendet werden, darunter Skript-Bibliotheken, Java-Applets, Formulare, Datenbank-Anbindungen und Internet-/Netz-Schnittstellen. Diese Objekte stammen typischerweise von Drittanbietern oder sind Erweiterungen speziell für Autorensysteme, wie beispielsweise Xtras oder SWCs.",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        101
+      ],
+      "highlights": [
+        "Applikationsobjekte",
+        "Skript-Bibliotheken",
+        "Java-Applets",
+        "Formulare",
+        "Datenbank-Anbindungen",
+        "Internet-/Netz-Schnittstellen",
+        "Drittanbieter",
+        "Erweiterungen für Autorensysteme"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-24f3df56287d",
+      "question": "Was ist die Definition eines Autorensystems?",
+      "answer": "Ein Autorensystem ist eine Arbeitsumgebung, die Autoren zur Verfügung gestellt wird, um multimediale Anwendungen zu erstellen. Dies geschieht typischerweise unter Verwendung grafischer und interaktiver Hilfsmittel.",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        106
+      ],
+      "highlights": [
+        "Autorensysteme",
+        "Arbeitsumgebungen",
+        "multimediale Anwendungen",
+        "grafischer, interaktiver Hilfsmittel"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-cde4df608f08",
+      "question": "Welche ursprünglichen Strömungen führten zur Entstehung von Autorensystemen?",
+      "answer": "Die Entstehung von Autorensystemen wurde maßgeblich durch drei ursprüngliche Strömungen beeinflusst: erstens spezielle Software für die Entwicklung von Lehr- und Lernsoftware, bekannt als CAI-Systeme (Computer-Aided Instruction); zweitens allgemeine Hyperlink-Werkzeuge, die sich aus HyperText- und Dokumentationswerkzeugen entwickelten; und drittens Animations-Werkzeuge.",
+      "category": "Themengebiete",
+      "examRelevance": "high",
+      "sourcePages": [
+        107
+      ],
+      "highlights": [
+        "ursprüngliche Strömungen",
+        "Lehr- und Lernsoftware",
+        "CAI-Systeme",
+        "Computer-Aided Instruction",
+        "Hyperlink-Werkzeuge",
+        "HyperText-Werkzeuge",
+        "Dokumentationswerkzeuge",
+        "Animations-Werkzeuge"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-bf079ded3409",
+      "question": "Nennen Sie die drei Haupttypen von Autorensystemen und ordnen Sie ihnen die entsprechenden Anwendungsbereiche zu.",
+      "answer": "Es gibt drei Haupttypen von Autorensystemen: 1. Flowchart-/Struktur-basierte Systeme: Diese sind eng mit Lehr- und Lernsoftware (CAI) verbunden, bei denen der Ablauf durch eine Struktur oder einen Flowchart definiert wird. 2. Frame-/Buch-basierte Systeme: Diese basieren auf dem Hypertext-Prinzip und organisieren Inhalte in Frames oder buchähnlichen Strukturen. 3. Timeline-/Film-basierte Systeme: Diese werden hauptsächlich für Animationen eingesetzt, wobei der zeitliche Ablauf der Medienobjekte im Vordergrund steht.",
+      "category": "Typen",
+      "examRelevance": "high",
+      "sourcePages": [
+        108
+      ],
+      "highlights": [
+        "Haupttypen von Autorensystemen",
+        "Flowchart-/Struktur-basiert",
+        "Lehr-/Lernsoftware CAI",
+        "Frame-/Buch-basiert",
+        "Hypertext",
+        "Timeline-/Film-basiert",
+        "Animation"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-247ebd8602b3",
+      "question": "Beschreiben Sie die Funktionsweise und den primären Anwendungsbereich von Flowchart-/Struktur-basierten Autorensystemen.",
+      "answer": "Bei Flowchart-/Struktur-basierten Autorensystemen werden Medienobjekte durch Icons repräsentiert, die mittels Kanten miteinander verbunden sind, um einen Ablaufplan oder Flowchart zu bilden. Dieser Ablaufplan definiert sowohl die Struktur als auch den zeitlichen Ablauf der Anwendung. Ihr primärer Anwendungsbereich ist die Erstellung multimedialer Lehr- und Lernsoftware.",
+      "category": "Typen",
+      "examRelevance": "medium",
+      "sourcePages": [
+        109
+      ],
+      "highlights": [
+        "Flowchart-/Struktur-basierten Autorensystemen",
+        "Icons repräsentieren Medienobjekte",
+        "Kanten miteinander verbunden",
+        "Ablaufplan",
+        "Flowchart",
+        "zeitlichen Ablauf",
+        "Multimediale Lehr- und Lernsoftware"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-fddabd3877b9",
+      "question": "Nennen Sie Beispiele für Flowchart-/Struktur-basierte Autorensysteme und beschreiben Sie kurz deren charakteristische Benutzeroberfläche.",
+      "answer": "Beispiele für Flowchart-/Struktur-basierte Autorensysteme sind Authorware (ursprünglich Macromedia, später Adobe), Course Builder, InterActive und IconAuthor. Ein charakteristisches Merkmal dieser Systeme ist eine grafische Benutzeroberfläche, in der Medienobjekte als Icons dargestellt und durch Verbindungslinien (Kanten) zu einem visuellen Ablaufplan oder Flowchart verknüpft werden, der die Programmlogik und den zeitlichen Ablauf abbildet.",
+      "category": "Werkzeuge",
+      "examRelevance": "high",
+      "sourcePages": [
+        110
+      ],
+      "highlights": [
+        "Flowchart-/Struktur-basierte Autorensysteme",
+        "Authorware",
+        "Course Builder",
+        "InterActive",
+        "IconAuthor",
+        "Apple Media Tool",
+        "grafische Benutzeroberfläche",
+        "Icons"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-110.webp"
+      ]
+    },
+    {
+      "id": "card-9666bb1c32f5",
+      "question": "Welche Kernkomponenten kennzeichnen das Apple Media Tool als Autorensystem?",
+      "answer": "Das Apple Media Tool zeichnet sich durch die Kernkomponenten Flowchart & Frames, Media, Objects und Actions aus, die zur Strukturierung und Interaktion in multimedialen Anwendungen dienen.",
+      "category": "Begriffe",
+      "examRelevance": "medium",
+      "sourcePages": [
+        111
+      ],
+      "highlights": [
+        "Flowchart",
+        "Frames",
+        "Media",
+        "Objects",
+        "Actions",
+        "Apple Media Tool"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-111.webp"
+      ]
+    },
+    {
+      "id": "card-977e020d2a49",
+      "question": "Welche zentralen Fenster und Paletten sind charakteristisch für die Benutzeroberfläche von Authorware?",
+      "answer": "Die Benutzeroberfläche von Authorware wird primär durch die Flowline, das Presentation Window sowie die Icons und die Icon Palette charakterisiert, welche die Erstellung und Gestaltung multimedialer Inhalte ermöglichen.",
+      "category": "Begriffe",
+      "examRelevance": "medium",
+      "sourcePages": [
+        112
+      ],
+      "highlights": [
+        "Authorware",
+        "Flowline",
+        "Presentation Window",
+        "Icons",
+        "Icon Palette"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-112.webp"
+      ]
+    },
+    {
+      "id": "card-676b253e3b6a",
+      "question": "Welche Rolle spielt die Flow-Line in Authorware bei der Entwicklung multimedialer Anwendungen?",
+      "answer": "Die Flow-Line in Authorware dient als zentrale Steuerungslogik, in der die Abfolge von Medien, Objekten und Aktionen linear oder verzweigt definiert wird, um den Programmfluss der Anwendung zu bestimmen.",
+      "category": "Methoden",
+      "examRelevance": "high",
+      "sourcePages": [
+        113
+      ],
+      "highlights": [
+        "Flow-Line",
+        "Authorware",
+        "Programmfluss",
+        "Steuerungslogik"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-113.webp"
+      ]
+    },
+    {
+      "id": "card-09a089e835d2",
+      "question": "Beschreiben Sie die grundlegenden Eigenschaften des Frame/Buch-Modells in Autorensystemen und nennen Sie typische Anwendungsbereiche.",
+      "answer": "Im Frame/Buch-Modell werden Objekte auf Flächen, sogenannten Frames, angeordnet, die als Karten, Seiten, Fenster oder Dias fungieren können. Jeder Frame repräsentiert typischerweise einen Bildschirm und Frames können beliebig miteinander verbunden werden. Dieses Modell findet häufig Anwendung in interaktiven Lernprogrammen und Spielen wie Myst.",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        114
+      ],
+      "highlights": [
+        "Frame/Buch-Modell",
+        "Frames",
+        "Objekte",
+        "interaktive Lernprogramme",
+        "Spiele"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-30ddc87da675",
+      "question": "Nennen Sie mindestens drei bekannte Autorensysteme, die dem Frame/Buch-Modell folgen, und ordnen Sie diese gegebenenfalls den Betriebssystemen zu.",
+      "answer": "Bekannte Autorensysteme, die dem Frame/Buch-Modell folgen, sind unter anderem HyperCard (Mac), ToolBook (Windows) und MetaCard (ursprünglich UNIX, später von RunRev übernommen). Weitere Beispiele sind DreamCard und Revolution (heute LiveCode).",
+      "category": "Begriffe",
+      "examRelevance": "medium",
+      "sourcePages": [
+        115
+      ],
+      "highlights": [
+        "Frame/Buch-Modell",
+        "HyperCard",
+        "ToolBook",
+        "MetaCard",
+        "RunRev",
+        "DreamCard",
+        "Revolution",
+        "LiveCode"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-115.webp"
+      ]
+    },
+    {
+      "id": "card-05491c1f7970",
+      "question": "Wie visualisiert HyperCard die Verknüpfung von Informationen und die Navigation innerhalb eines Hypertext-Systems?",
+      "answer": "HyperCard visualisiert die Verknüpfung von Informationen durch eine kartenbasierte Struktur, bei der jede 'Karte' (Frame) Inhalte darstellt und über Schaltflächen oder Links mit anderen Karten verbunden ist. Die Navigation wird oft durch eine Übersichtskarte oder eine Historienliste unterstützt, die den Benutzer durch die vernetzten Inhalte führt, wie im Beispiel der 'Current report overview map' dargestellt.",
+      "category": "Methoden",
+      "examRelevance": "high",
+      "sourcePages": [
+        116
+      ],
+      "highlights": [
+        "HyperCard",
+        "Hypertext",
+        "kartenbasierte Struktur",
+        "Navigation",
+        "Übersichtskarte"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-116.webp"
+      ]
+    },
+    {
+      "id": "card-938b4882d9ae",
+      "question": "Beschreiben Sie die Entstehung von LiveCode und seine wesentlichen Merkmale bezüglich der Deployment-Möglichkeiten.",
+      "answer": "LiveCode entstand aus der Vereinigung der DreamCard- und Revolution-Produktlinien und wurde 2010 unter dem neuen Namen LiveCode eingeführt. Ein wesentliches Merkmal sind seine umfangreichen Deployment-Möglichkeiten, die es erlauben, Anwendungen für eine Vielzahl von Plattformen wie Windows, Mac OSX, Linux, iOS, Android, Windows Mobile, Web und Server zu erstellen.",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        117
+      ],
+      "highlights": [
+        "LiveCode",
+        "Revolution",
+        "DreamCard",
+        "Deployment-Möglichkeiten",
+        "Cross-Plattform"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-117.webp"
+      ]
+    },
+    {
+      "id": "card-fea2d009d766",
+      "question": "Welche historische Bedeutung hat Robert Cailliau im Kontext der Entwicklung des World Wide Web und in welcher Verbindung steht er zu LiveCode?",
+      "answer": "Robert Cailliau ist historisch bedeutsam, da er zusammen mit Tim Berners-Lee das World Wide Web definiert hat. Im Kontext von LiveCode wird er als bekannter Unterstützer des Projekts genannt, was die Relevanz und das Erbe der Technologie unterstreicht.",
+      "category": "Begriffe",
+      "examRelevance": "medium",
+      "sourcePages": [
+        118
+      ],
+      "highlights": [
+        "Robert Cailliau",
+        "Tim Berners-Lee",
+        "World Wide Web",
+        "WWW",
+        "LiveCode"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-118.webp"
+      ]
+    },
+    {
+      "id": "card-89df8d2ed752",
+      "question": "Wie wurde die Entwicklung einer Open Source Version von LiveCode finanziert und wann fand dies statt?",
+      "answer": "Die Entwicklung einer Open Source Version von LiveCode wurde im Februar 2013 erfolgreich über eine Kickstarter-Kampagne finanziert. Dabei wurde das Ziel von GBP 350.000 (entspricht $815.000) um 41% übertroffen.",
+      "category": "Prozesse",
+      "examRelevance": "low",
+      "sourcePages": [
+        119
+      ],
+      "highlights": [
+        "LiveCode",
+        "Open Source",
+        "Kickstarter",
+        "Finanzierung"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-119.webp"
+      ]
+    },
+    {
+      "id": "card-d2404ec331fd",
+      "question": "Wann wurde die LiveCode Open Source Edition (LC 6.0) veröffentlicht und welche weitere Version wurde kurz darauf angekündigt?",
+      "answer": "Die LiveCode Open Source Edition (LC 6.0) wurde am 10. April 2013 veröffentlicht. Bereits im März 2014 wurde eine Beta-Version der LiveCode 7.0 angekündigt, was die kontinuierliche Weiterentwicklung der Plattform unterstreicht.",
+      "category": "Begriffe",
+      "examRelevance": "low",
+      "sourcePages": [
+        120
+      ],
+      "highlights": [
+        "LiveCode",
+        "Open Source Edition",
+        "LC 6.0",
+        "LC 7.0 beta"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-120.webp"
+      ]
+    },
+    {
+      "id": "card-00cb4e42ffaf",
+      "question": "Was ist das primäre Ziel von LiveCode in Bezug auf HTML5?",
+      "answer": "Das primäre Ziel von LiveCode ist es, jeden Browser als Zielplattform zu nutzen, basierend auf HTML5-Technologie.",
+      "category": "Themengebiete",
+      "examRelevance": "high",
+      "sourcePages": [
+        121
+      ],
+      "highlights": [
+        "jeden Browser",
+        "Zielplattform",
+        "HTML5-Basis"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-017c3156e62e",
+      "question": "Welche Art von Elementen und deren Eigenschaften können in der Revolution/DreamCard Benutzeroberfläche konfiguriert werden?",
+      "answer": "In der Revolution/DreamCard Benutzeroberfläche können verschiedene Elemente wie \"Field\" (Textfelder) konfiguriert werden, wobei Eigenschaften wie Name, Fokusierbarkeit, Sichtbarkeit, Rahmen, Scrollbalken und Textverhalten (z.B. Auto-Highlight) eingestellt werden können.",
+      "category": "Methoden",
+      "examRelevance": "medium",
+      "sourcePages": [
+        123
+      ],
+      "highlights": [
+        "Revolution/DreamCard",
+        "Benutzeroberfläche",
+        "Field",
+        "Eigenschaften"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-123.webp"
+      ]
+    },
+    {
+      "id": "card-11b2831f19be",
+      "question": "Welche charakteristischen Merkmale weisen Timeline/Film-basierte Autorensysteme auf?",
+      "answer": "Timeline/Film-basierte Autorensysteme zeichnen sich dadurch aus, dass Filmszenen als Reihen von Einzelbildern dargestellt werden, eine Zeitachse den zeitlichen Ablauf symbolisiert und Darsteller (Objekte) auf einer virtuellen Bühne agieren.",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        124
+      ],
+      "highlights": [
+        "Timeline/Film-basierte Autorensysteme",
+        "Filmszenen",
+        "Einzelbildern",
+        "Zeitachse",
+        "zeitlichen Ablauf",
+        "Darsteller (Objekte)",
+        "Bühne"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-87cd9604a338",
+      "question": "Für welche Anwendungsbereiche eignen sich Timeline/Film-basierte Autorensysteme besonders gut?",
+      "answer": "Timeline/Film-basierte Autorensysteme eignen sich besonders gut für Anwendungen, bei denen sich der Bildschirmaufbau mit der Zeit ändert, wie zum Beispiel bei Spielen und Animationen.",
+      "category": "Themengebiete",
+      "examRelevance": "medium",
+      "sourcePages": [
+        124
+      ],
+      "highlights": [
+        "Anwendungsbereiche",
+        "Bildschirmaufbau",
+        "Spiele",
+        "Animationen"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-8053de9d2eb4",
+      "question": "Nennen Sie zwei bekannte Tools, die als Timeline/Film-basierte Autorensysteme klassifiziert werden und deren Entwicklungshistorie.",
+      "answer": "Zwei bekannte Tools sind Director und Flash. Beide wurden ursprünglich von Macromedia entwickelt und später von Adobe übernommen.",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        125
+      ],
+      "highlights": [
+        "Director",
+        "Flash",
+        "Macromedia",
+        "Adobe",
+        "Timeline/Film-basierte Autorensysteme"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-125.webp"
+      ]
+    },
+    {
+      "id": "card-c1c4db688c87",
+      "question": "Welche zentralen Bestandteile sind in der Benutzeroberfläche von Adobe Director für die Erstellung von Animationen und interaktiven Inhalten sichtbar?",
+      "answer": "In der Benutzeroberfläche von Adobe Director sind der \"Score\" (die Zeitachse oder Timeline zur Steuerung von Objekten und Ereignissen) und die \"Stage\" (die Bühne, auf der die visuellen Elemente platziert und animiert werden) zentrale Bestandteile.",
+      "category": "Methoden",
+      "examRelevance": "medium",
+      "sourcePages": [
+        126
+      ],
+      "highlights": [
+        "Adobe Director",
+        "Benutzeroberfläche",
+        "Score",
+        "Stage",
+        "Zeitachse",
+        "Bühne"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-126.webp"
+      ]
+    },
+    {
+      "id": "card-3bdb752fc474",
+      "question": "Welche Elemente sind typischerweise in der Benutzeroberfläche von Adobe Flash für die Erstellung von Animationen und interaktiven Inhalten zu finden?",
+      "answer": "Die Benutzeroberfläche von Adobe Flash enthält typischerweise eine Zeitachse (Timeline) zur Steuerung von Frames und Ebenen sowie einen Arbeitsbereich, in dem grafische Objekte erstellt und manipuliert werden können, ergänzt durch Panels für Eigenschaften und Bibliotheken.",
+      "category": "Methoden",
+      "examRelevance": "medium",
+      "sourcePages": [
+        128
+      ],
+      "highlights": [
+        "Adobe Flash",
+        "Benutzeroberfläche",
+        "Zeitachse",
+        "Timeline",
+        "Arbeitsbereich",
+        "Eigenschaften",
+        "Bibliotheken"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-128.webp"
+      ]
+    },
+    {
+      "id": "card-39415a3f53f5",
+      "question": "Welche vier Hauptkategorien von Software können als Vorläufer moderner Autorensysteme betrachtet werden?",
+      "answer": "Die vier Hauptkategorien von Software, die als Vorläufer moderner Autorensysteme gelten, sind Lehr- und Lernsoftware, Computer-Aided Instruction (CAI), Hyperlinkwerkzeuge und Animationswerkzeuge.",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        130
+      ],
+      "highlights": [
+        "Vorläufer",
+        "Autorensysteme",
+        "Lehr- und Lernsoftware",
+        "Computer-Aided Instruction (CAI)",
+        "Hyperlinkwerkzeuge",
+        "Animationswerkzeuge"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-3a229a9a4807",
+      "question": "Nennen Sie die drei Haupttypen von Autorensystemen und jeweils ein Beispiel.",
+      "answer": "Die drei Haupttypen von Autorensystemen sind Flowchart-/Struktur-basierte Systeme (z.B. Authorware, H5P), Frame-/Buch-basierte Systeme (z.B. LiveCode) und Timeline-/Film-basierte Systeme (z.B. Google Web Designer).",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        130
+      ],
+      "highlights": [
+        "Haupttypen Autorensysteme",
+        "Flowchart-/Struktur-basiert",
+        "Authorware",
+        "H5P",
+        "Frame-/Buch-basiert",
+        "LiveCode",
+        "Timeline-/Film-basiert",
+        "Google Web Designer"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-3740d7d951cb",
+      "question": "Was ist H5P und was ist sein primäres Ziel im Kontext interaktiver Lernmaterialien?",
+      "answer": "H5P ist eine Abkürzung für \"HTML5 Package\" und bezeichnet eine freie und quelloffene Software. Ihr primäres Ziel ist das einfache Erstellen und Teilen von interaktiven (Lern-)Inhalten für das Web.",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        133
+      ],
+      "highlights": [
+        "H5P",
+        "HTML5 Package",
+        "freie und quelloffene Software",
+        "interaktiven (Lern-)Inhalten",
+        "einfachen Erstellen und Teilen"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-97d6f6d44bf7",
+      "question": "Welche Hauptkomponenten umfasst das H5P-Framework, um ein umfassendes Ökosystem für interaktive Inhalte zu bilden?",
+      "answer": "Das H5P-Framework umfasst einen web-basierten (Content-)Editor (mittlerweile auch als Desktop-Anwendungen verfügbar), einen Web-Auftritt zur Teilung von Inhaltstypen (\"content types\"), Plugins für existierende Content Management Systeme (CMS) und ein standardisiertes Datei-/Archiv-Format (.h5p) zum einheitlichen Bündeln von HTML5-Ressourcen.",
+      "category": "Themengebiete",
+      "examRelevance": "high",
+      "sourcePages": [
+        134
+      ],
+      "highlights": [
+        "H5P-Framework",
+        "web-basierten (Content-)Editor",
+        "Web-Auftritt",
+        "Plugins",
+        "Datei-/Archiv-Format (.h5p)",
+        "HTML5-Ressourcen"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-f45e969bc5b8",
+      "question": "Auf welcher Kerntechnologie basiert H5P und welche gängigen Content Management Systeme (CMS) und Learning Management Systeme (LMS) werden primär unterstützt?",
+      "answer": "H5P basiert vor allem auf JavaScript. Es unterstützt gängige CMS wie Drupal, WordPress und Tiki sowie LMS wie Moodle, Canvas, BrightSpace, Blackboard, Sakai und Open edX. Seit Moodle 3.9 ist H5P sogar im Moodle-Core integriert und benötigt kein zusätzliches Plugin mehr.",
+      "category": "Technologie",
+      "examRelevance": "high",
+      "sourcePages": [
+        135
+      ],
+      "highlights": [
+        "JavaScript",
+        "CMS",
+        "LMS",
+        "Drupal",
+        "WordPress",
+        "Moodle",
+        "Moodle-Core"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-09a1250c882a",
+      "question": "Welche Bestandteile werden im H5P-Archivformat (.h5p) gespeichert, um die Portabilität und Wiederverwendbarkeit von Inhalten zu gewährleisten?",
+      "answer": "Das H5P-Archivformat speichert die verwendeten Medien, die notwendigen Programmbibliotheken (JavaScript und CSS) und die Konfigurationsdateien im JSON-Format.",
+      "category": "Begriffe",
+      "examRelevance": "medium",
+      "sourcePages": [
+        135
+      ],
+      "highlights": [
+        "Archivformat",
+        "Medien",
+        "Programmbibliotheken",
+        "JavaScript",
+        "CSS",
+        "Konfigurationsdateien (JSON)"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-a8a1f06cfb61",
+      "question": "Was war der ursprüngliche Anlass für die Entwicklung von H5P und welche Organisationen waren in der Anfangsphase maßgeblich beteiligt?",
+      "answer": "Der ursprüngliche Anlass war die Suche der Norwegian Digital Learning Arena (NDLA) im Jahr 2012 nach einer Alternative zum Adobe Flash Autorensystem, basierend auf dem Grundgedanken von Open Educational Resources (OER) und offenen Standards. Die norwegische Firma Joubel (Tromsø) übernahm den Auftrag und entwickelte 2013 die erste Version.",
+      "category": "Geschichte",
+      "examRelevance": "medium",
+      "sourcePages": [
+        136
+      ],
+      "highlights": [
+        "Norwegian Digital Learning Arena (NDLA)",
+        "Adobe Flash Autorensystem",
+        "Open Educational Resources (OER)",
+        "Joubel (Tromsø)"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-59da5fd317d1",
+      "question": "Wie viele unterschiedliche Inhaltstypen bietet H5P an und welche Herausforderung besteht bezüglich ihrer Strukturierung?",
+      "answer": "H5P bietet insgesamt 54 unterschiedliche Content Types (Stand März 2026) an. Eine Herausforderung besteht darin, dass es leider keine offizielle Kategorisierung durch das H5P-Team gibt, was die Übersichtlichkeit erschweren kann.",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        138
+      ],
+      "highlights": [
+        "Inhaltstypen",
+        "54 unterschiedliche Content Types",
+        "keine Kategorisierung"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-79beffa11bb5",
+      "question": "Nennen Sie die fünf vorgeschlagenen Hauptkategorien für H5P-Inhaltstypen gemäß dem ersten Klassifizierungsversuch.",
+      "answer": "Die vorgeschlagenen Hauptkategorien für H5P-Inhaltstypen sind: Darstellungsstypen (z.B. grafisch, textuell), Interaktionstypen (z.B. Quiztypen, grafisch/textuell/auditiv/visuell), Behältertypen (für Aggregationen), Utility / Dienstprogramme und Spezielle Anwendungen.",
+      "category": "Methoden",
+      "examRelevance": "high",
+      "sourcePages": [
+        139
+      ],
+      "highlights": [
+        "Kategorisierung",
+        "Darstellungsstypen",
+        "Interaktionstypen",
+        "Behältertypen",
+        "Utility / Dienstprogramme",
+        "Spezielle Anwendungen"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-eb170ea6c541",
+      "question": "Nennen Sie mindestens drei Beispiele für grafische Darstellungsstypen von H5P-Inhalten, die zur Visualisierung von Informationen dienen.",
+      "answer": "Beispiele für grafische Darstellungsstypen von H5P-Inhalten sind Agamotto (Sequenz von Bildern), Chart (Balken- und Kreisdiagramme), Collage (Bildercollagen), Image Juxtaposition (interaktive Bilder), Image Slider (Bild-Slider) und Timeline (Zeitleisten mit Multimedia).",
+      "category": "Begriffe",
+      "examRelevance": "medium",
+      "sourcePages": [
+        140
+      ],
+      "highlights": [
+        "grafische Darstellungsstypen",
+        "Agamotto",
+        "Chart",
+        "Collage",
+        "Image Juxtaposition",
+        "Image Slider",
+        "Timeline"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-140.webp"
+      ]
+    },
+    {
+      "id": "card-9993039af519",
+      "question": "Welche textuellen Darstellungsformen können in Autorensystemen verwendet werden, um Inhalte zu präsentieren?",
+      "answer": "In Autorensystemen können textuelle Inhalte unter anderem als \"Accordion\" zur Erstellung vertikal gestapelter, erweiterbarer Elemente oder als \"Information Wall\" zur Erstellung durchsuchbarer Informationspanels dargestellt werden. Diese Formate helfen, Informationen strukturiert und zugänglich zu machen.",
+      "category": "Begriffe",
+      "examRelevance": "medium",
+      "sourcePages": [
+        141
+      ],
+      "highlights": [
+        "Accordion",
+        "Information Wall"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-141.webp"
+      ]
+    },
+    {
+      "id": "card-d4faccf8768d",
+      "question": "Nennen Sie mindestens fünf gängige interaktive Quiz-Formate, die in Autorensystemen zur Wissensüberprüfung eingesetzt werden können.",
+      "answer": "Gängige interaktive Quiz-Formate umfassen das \"Arithmetic Quiz\" für rechenbasierte Aufgaben, \"Flashcards\" für stilvolle Lernkarten, \"Multiple Choice\" für flexible Mehrfachauswahlfragen, \"True/False Question\" für Richtig/Falsch-Fragen, \"Guess the Answer\" für bildbasierte Fragen und Antworten, sowie \"Single Choice Set\" und \"Quiz (Question Set)\" für umfassendere Fragensammlungen. Diese Formate sind essenziell für die formative und summative Bewertung.",
+      "category": "Methoden",
+      "examRelevance": "high",
+      "sourcePages": [
+        142
+      ],
+      "highlights": [
+        "Arithmetic Quiz",
+        "Flashcards",
+        "Multiple Choice",
+        "True/False Question",
+        "Guess the Answer",
+        "Single Choice Set",
+        "Quiz (Question Set)"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-142.webp"
+      ]
+    },
+    {
+      "id": "card-08dd689e5e3e",
+      "question": "Welche graphischen Interaktionstypen ermöglichen es Lernenden, direkt mit visuellen Elementen zu interagieren?",
+      "answer": "Graphische Interaktionstypen umfassen \"Drag and Drop\" für Ziehen-und-Ablegen-Aufgaben, \"Find the Hotspot\" und \"Find Multiple Hotspots\" zum Auffinden spezifischer Bereiche in Bildern, \"Image Choice\" zur Auswahl von Bildern als Alternativen, \"Image Hotspots\" für Bilder mit mehreren Informations-Hotspots, \"Image pairing\" für Bild-Matching-Spiele und \"Image Sequencing\" zum Anordnen von Bildern in der richtigen Reihenfolge. Diese Typen fördern das visuelle Lernen und die Problemlösung.",
+      "category": "Methoden",
+      "examRelevance": "high",
+      "sourcePages": [
+        143
+      ],
+      "highlights": [
+        "Drag and Drop",
+        "Find the Hotspot",
+        "Find Multiple Hotspots",
+        "Image Choice",
+        "Image Hotspots",
+        "Image pairing",
+        "Image Sequencing"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-143.webp"
+      ]
+    },
+    {
+      "id": "card-67af61888fbd",
+      "question": "Beschreiben Sie verschiedene textuelle Interaktionstypen, die in Autorensystemen zur Vertiefung von Lerninhalten genutzt werden können.",
+      "answer": "Textuelle Interaktionstypen beinhalten \"Dialog Cards\" für textbasierte Wechselkarten, \"Drag the Words\" zum Ziehen und Ablegen von Wörtern, \"Fill in the Blanks\" und \"Complex fill the blanks\" zum Ausfüllen von Lücken in Texten, \"Essay\" für Freitext-Antworten mit sofortigem Feedback, \"Mark the Words\" zum Hervorheben von Wörtern, \"Sort the Paragraphs\" zum Sortieren von Absätzen und \"Structure Strip\" für interaktive Strukturstreifen. Sie unterstützen das aktive Lesen und Schreiben.",
+      "category": "Methoden",
+      "examRelevance": "high",
+      "sourcePages": [
+        144
+      ],
+      "highlights": [
+        "Dialog Cards",
+        "Drag the Words",
+        "Fill in the Blanks",
+        "Essay",
+        "Mark the Words",
+        "Sort the Paragraphs",
+        "Structure Strip"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-144.webp"
+      ]
+    },
+    {
+      "id": "card-3724cbf2e332",
+      "question": "Welche auditiven und visuellen Interaktionstypen können in Autorensystemen eingesetzt werden, um multimediale Lernerfahrungen zu schaffen?",
+      "answer": "Auditive und visuelle Interaktionstypen umfassen den \"Audio Recorder\" für Audioaufnahmen, \"Dictation\" für Diktate mit sofortigem Feedback, \"Speak the Words\" und \"Speak the Words Set\" für sprachbasierte Fragen und Antworten sowie \"Interactive Video\" zur Erstellung von mit Interaktionen angereicherten Videos. Diese Formate sind entscheidend für die Integration von Multimedia in Lerninhalte.",
+      "category": "Methoden",
+      "examRelevance": "high",
+      "sourcePages": [
+        145
+      ],
+      "highlights": [
+        "Audio Recorder",
+        "Dictation",
+        "Speak the Words",
+        "Interactive Video"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-145.webp"
+      ]
+    },
+    {
+      "id": "card-9505a15839dd",
+      "question": "Welche Behälter- und Präsentationsformate stehen in Autorensystemen zur Strukturierung und Darstellung von Kursinhalten zur Verfügung?",
+      "answer": "Zur Strukturierung und Darstellung von Kursinhalten können \"Column\" für Layouts, \"Impressive Presentation\" für Diashows mit Parallax-Effekten, \"Interactive Book\" für Kurse, Bücher oder Tests und insbesondere die \"Course Presentation\" zur Erstellung von Präsentationen mit interaktiven Folien verwendet werden. Diese Formate ermöglichen eine flexible und ansprechende Aufbereitung von Lernmaterialien.",
+      "category": "Begriffe",
+      "examRelevance": "medium",
+      "sourcePages": [
+        146,
+        149
+      ],
+      "highlights": [
+        "Column",
+        "Impressive Presentation",
+        "Interactive Book",
+        "Course Presentation"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-146.webp",
+        "/media/page-149.webp"
+      ]
+    },
+    {
+      "id": "card-2096581e1839",
+      "question": "Nennen Sie mindestens drei Beispiele für spezielle Anwendungen in Autorensystemen, die über Standard-Interaktionen hinausgehen.",
+      "answer": "Spezielle Anwendungen umfassen \"Cornell Notes\" zur Notizenerstellung nach dem Cornell-System, \"Branching Scenario\" zur Erstellung von Dilemmata und selbstgesteuertem Lernen, \"Personality Quiz\" für Persönlichkeitstests, \"Memory Game\" für Bildpaare-Spiele und \"Virtual Tour (360)\" für interaktive 360-Grad-Umgebungen. Diese erweitern die Lernmöglichkeiten durch Gamification und immersive Erlebnisse.",
+      "category": "Methoden",
+      "examRelevance": "high",
+      "sourcePages": [
+        148
+      ],
+      "highlights": [
+        "Cornell Notes",
+        "Branching Scenario",
+        "Personality Quiz",
+        "Memory Game",
+        "Virtual Tour (360)"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-148.webp"
+      ]
+    },
+    {
+      "id": "card-b878e8d80097",
+      "question": "Welche Dienstprogramme (Utilities) können in Autorensystemen zur Integration externer Inhalte oder zur Erfassung von Feedback genutzt werden?",
+      "answer": "Dienstprogramme umfassen den \"Iframe Embedder\" zum Einbetten von Inhalten aus URLs oder Dateien, \"KewAr Code\" zur Erstellung von QR-Codes für verschiedene Zwecke und insbesondere das \"Questionnaire\" zur Erstellung von Fragebögen, um Feedback zu erhalten. Diese Tools sind nützlich für die Erweiterung und Evaluation von Lerninhalten.",
+      "category": "Begriffe",
+      "examRelevance": "medium",
+      "sourcePages": [
+        147
+      ],
+      "highlights": [
+        "Iframe Embedder",
+        "KewAr Code",
+        "Questionnaire"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-147.webp"
+      ]
+    },
+    {
+      "id": "card-7c10f81e2fe4",
+      "question": "Was ist Unity und welche grundlegenden Eigenschaften kennzeichnen es?",
+      "answer": "Unity ist eine Cross-Platform Game Engine, die von Unity Technologies entwickelt wurde. Sie wurde ursprünglich am 08. Juni 2005 auf der Apple WWDC vorgestellt mit dem Ziel, die Spieleentwicklung zu demokratisieren. Die Engine ist hauptsächlich in C++ (für den Core und Performance) und C# implementiert.",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        152
+      ],
+      "highlights": [
+        "Cross-Platform Game Engine",
+        "Unity Technologies",
+        "C++",
+        "C#"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-152.webp"
+      ]
+    },
+    {
+      "id": "card-b798d815a21c",
+      "question": "Beschreiben Sie die Entstehungsgeschichte von Unity Technologies, einschließlich der Gründung und der Umbenennung.",
+      "answer": "Unity Technologies wurde 2004 in Kopenhagen ursprünglich als \"Over The Edge Entertainment\" gegründet. Die Gründer waren David Helgason, Nicholas Francis und Joachim Ante. Nach der Veröffentlichung ihres ersten, nicht erfolgreichen Spiels \"GooBall\" im Jahr 2005, stellten sie die entwickelte Engine in den Vordergrund. Im Jahr 2007 erfolgte die Umbenennung in Unity Technologies, und im September 2020 ging das Unternehmen an die Börse (NYSE:U).",
+      "category": "Prozesse",
+      "examRelevance": "medium",
+      "sourcePages": [
+        153
+      ],
+      "highlights": [
+        "Over The Edge Entertainment",
+        "Kopenhagen",
+        "David Helgason",
+        "Nicholas Francis",
+        "Joachim Ante",
+        "GooBall",
+        "Unity Technologies",
+        "Börsengang"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-f03e1b486d1b",
+      "question": "Welche Skriptsprachen wurden im Laufe der Entwicklung von Unity unterstützt und welche ist heute die primäre Sprache?",
+      "answer": "In Unity 1.0 (2006) wurden C#, UnityScript (eine JavaScript-Variante) und Boo (eine Python-Variante) als Skriptsprachen unterstützt. Ab Unity 5.0 (2015) wurde die Programmierung und das Scripting auf C# als einzige primäre Sprache konzentriert.",
+      "category": "Methoden",
+      "examRelevance": "high",
+      "sourcePages": [
+        154,
+        155
+      ],
+      "highlights": [
+        "C#",
+        "UnityScript",
+        "Boo",
+        "Unity 5.0"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-ce012a98fa2b",
+      "question": "Nennen Sie wichtige Meilensteine in der Erweiterung der Plattformunterstützung von Unity.",
+      "answer": "Unity erweiterte seine Plattformunterstützung schrittweise: Unity 2.0 (2007) unterstützte iOS ab 2008. Unity 3.0 (2010) erweiterte die Unterstützung auf Android, Spielekonsolen, PCs und Web. Unity 4.0 (2012) fügte DirectX, Adobe Flash und eine Linux Preview hinzu. Unity 5.0 (2015) führte WebGL-Unterstützung sowie Unterstützung für Nintendo Switch, Facebook Gameroom und Google Daydream ein.",
+      "category": "Prozesse",
+      "examRelevance": "high",
+      "sourcePages": [
+        154,
+        155
+      ],
+      "highlights": [
+        "iOS",
+        "Android",
+        "Spielekonsolen",
+        "PCs",
+        "Web",
+        "DirectX",
+        "Adobe Flash",
+        "Linux"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-95d574df47cc",
+      "question": "Welche Plattformen werden von der aktuellen Unity LTS-Version (2024) unterstützt?",
+      "answer": "Die aktuelle Unity LTS-Version (2024) bietet umfassende Unterstützung für: Mobile Plattformen (iOS, Android, Android TV, tvOS), Desktop Plattformen (Windows, Mac, Linux), Web Plattform (WebGL), Konsolen Plattformen (PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S, Nintendo Switch) und Virtual/Extended Reality Plattformen (Oculus, PlayStation VR, Google's ARCore, Apple's ARKit, Windows Mixed Reality (HoloLens), Magic Leap und mittels Unity XR SDK: Steam VR, Google Cardboard).",
+      "category": "Themengebiete",
+      "examRelevance": "high",
+      "sourcePages": [
+        157
+      ],
+      "highlights": [
+        "Mobile Plattformen",
+        "Desktop Plattformen",
+        "Web Plattform",
+        "Konsolen Plattformen",
+        "Virtual/Extended Reality Plattformen",
+        "iOS",
+        "Android",
+        "Windows"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-157.webp"
+      ]
+    },
+    {
+      "id": "card-92777b021d73",
+      "question": "Nennen Sie zwei bekannte Beispiele für mobile Anwendungen, die mit Unity entwickelt wurden.",
+      "answer": "Zwei bekannte Beispiele für mobile Anwendungen, die mit Unity entwickelt wurden, sind Pokémon Go und Call of Duty Mobile.",
+      "category": "Themengebiete",
+      "examRelevance": "medium",
+      "sourcePages": [
+        156
+      ],
+      "highlights": [
+        "Pokémon Go",
+        "Call of Duty Mobile"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-6d468fd1ab0b",
+      "question": "Nennen Sie mindestens drei frühe Systeme der Computer-Aided Instruction (CAI) und deren Einführungsjahre.",
+      "answer": "Zu den frühen Systemen der Computer-Aided Instruction (CAI) gehören: PLATO (ab 1960), TIP (1962), Coursewriter (1966), CATO (1966), TUTOR (ab 1967), VAULT (ab 1969) und TICCIT (ab 1968).",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        176
+      ],
+      "highlights": [
+        "Computer-Aided Instruction",
+        "PLATO",
+        "TIP",
+        "Coursewriter",
+        "CATO",
+        "TUTOR",
+        "VAULT",
+        "TICCIT"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-ba069ba1532c",
+      "question": "Erläutern Sie den grundlegenden Unterschied zwischen einer Autorensprache und einem Autorensystem im Kontext der Computer-Aided Instruction (CAI).",
+      "answer": "Eine Autorensprache ist eine Programmiersprache, die speziell um Elemente für Computer-Aided Instruction (CAI) erweitert wurde. Ein Autorensystem hingegen ist eine komplette Arbeitsumgebung, die es ermöglicht, Anwendungen ohne explizite Programmierung zu erstellen und diese Anwendungen gegebenenfalls in einer Autorensprache zu generieren.",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        177
+      ],
+      "highlights": [
+        "Autorensprache",
+        "Autorensystem",
+        "Programmiersprachen mit speziellen CAI-Elementen",
+        "komplette Arbeitsumgebung",
+        "Anwendungen erstellen ohne Programmierung"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-18ff35b93b63",
+      "question": "Beschreiben Sie die Hauptmerkmale und die Entwicklung von COURSEWRITER als frühe Autorensprache.",
+      "answer": "COURSEWRITER, eingeführt im Jahr 1966, war eine Weiterentwicklung von TIP (Translator for Interactive Programs). Es basierte auf dem Konzept des \"frame-based learning\" und ermöglichte die Strukturierung von Lerninhalten durch Elemente wie \"Paragraph\" und \"Frage\". Ein wesentliches Merkmal war die Fähigkeit zu Weitersprüngen, die von der gegebenen Antwort des Lernenden abhingen, was interaktives Lernen unterstützte.",
+      "category": "Methoden",
+      "examRelevance": "high",
+      "sourcePages": [
+        178
+      ],
+      "highlights": [
+        "COURSEWRITER",
+        "1966",
+        "Weiterentwicklung von TIP",
+        "frame-based learning",
+        "Paragraph",
+        "Frage",
+        "Weitersprung abhängig von der Antwort"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-33df6d149150",
+      "question": "Erläutern Sie die Bedeutung von CATO und TUTOR im Kontext der Entwicklung von Autorensprachen und des PLATO-Systems.",
+      "answer": "CATO (1966), ein Akronym für \"Compiler for Automatic Teaching Operations\", war eine frühe Autorensprache, die Teil des PLATO-Systems war. Sie ähnelte FORTRAN und wurde für die CDC 1604 entwickelt. CATO zeichnete sich durch eine geringe Anzahl von Primitiven, die Definition vorgefertigter Abläufe und die Nutzung spezieller Funktionstasten (z.B. für Hilfe oder Zurück) aus. TUTOR, ab 1967 von Paul Tenczar entwickelt, war eine Weiterentwicklung von CATO und wurde zum Standard für das PLATO-System ab Version III.",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        180
+      ],
+      "highlights": [
+        "CATO",
+        "1966",
+        "PLATO System",
+        "Compiler for Automatic Teaching Operations",
+        "FORTRAN-ähnliche Sprache",
+        "TUTOR",
+        "1967",
+        "Paul Tenczar"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-04ae06071915",
+      "question": "Welche wesentlichen Fähigkeiten und Anwendungsbereiche demonstrieren die Beispiele der TUTOR-Programmierung und -Anwendungen (Chemie, Arithmetik, Mathematik, Russisch, Biochemie)?",
+      "answer": "Die Beispiele der TUTOR-Programmierung und -Anwendungen demonstrieren die hohe Vielseitigkeit des Systems. TUTOR ermöglichte die Erstellung interaktiver Lerninhalte in verschiedenen Fachgebieten wie Chemie, Arithmetik, Mathematik, Russisch und Biochemie. Es unterstützte sowohl textbasierte als auch grafische Interaktionen, inklusive komplexer mathematischer Darstellungen, Sprachübungen und Simulationen, was es zu einem flexiblen Werkzeug für computergestütztes Lernen machte.",
+      "category": "Methoden, Themengebiete",
+      "examRelevance": "high",
+      "sourcePages": [
+        181,
+        182,
+        183,
+        184,
+        185,
+        186
+      ],
+      "highlights": [
+        "Vielseitigkeit",
+        "interaktive Lerninhalte",
+        "textbasierte",
+        "grafische Interaktionen",
+        "computergestütztes Lernen"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-181.webp",
+        "/media/page-182.webp",
+        "/media/page-183.webp",
+        "/media/page-184.webp",
+        "/media/page-185.webp",
+        "/media/page-186.webp"
+      ]
+    },
+    {
+      "id": "card-78aac781bb4e",
+      "question": "Was bedeutet die Abkürzung PLATO und welche Merkmale kennzeichneten die frühen Versionen PLATO I, II und III?",
+      "answer": "PLATO steht für \"Programmed Logic for Automatic Teaching Operations\" und wurde an der University of Illinois at Urbana-Champaign entwickelt. PLATO I (1960) lief auf dem ILLIAC I und nutzte eine spezielle Tastatur. PLATO II (1961) unterstützte bereits zwei Benutzer gleichzeitig. PLATO III (1963-1968) war eine Neuentwicklung, die durch die Integration von TUTOR flexibler in der Inhaltserstellung wurde.",
+      "category": "Begriffe, Prozesse, Themengebiete",
+      "examRelevance": "high",
+      "sourcePages": [
+        187
+      ],
+      "highlights": [
+        "Programmed Logic for Automatic Teaching Operations",
+        "University of Illinois at Urbana-Champaign",
+        "ILLIAC I",
+        "spezielle Tastatur",
+        "2 Benutzer",
+        "flexibler durch TUTOR"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-187.webp"
+      ]
+    },
+    {
+      "id": "card-965603f04e35",
+      "question": "Welche technologischen Innovationen und Merkmale führte das PLATO IV System ab 1972 ein?",
+      "answer": "PLATO IV, eingeführt ab 1972, zeichnete sich durch mehrere bahnbrechende technologische Innovationen aus. Es nutzte einen Plasma-Bildschirm mit einer Auflösung von 512x512 Punkten und verfügte über einen 16x16 Touchscreen für direkte Interaktion. Zudem integrierte es fortschrittliche Audiofähigkeiten durch den Gooch Synthetic Woodwind (4-stimmig) und später den Gooch Cybernetic Synthesizer (16-stimmig), was multimediale Lernerfahrungen ermöglichte. Die Kosten pro Terminal lagen bei $12.000, was inflationsbereinigt im Jahr 2021 etwa $75.506 entsprach.",
+      "category": "Begriffe, Methoden, Technologien",
+      "examRelevance": "high",
+      "sourcePages": [
+        188
+      ],
+      "highlights": [
+        "Plasma-Bildschirm",
+        "512x512 Punkte",
+        "16x16 Touchscreen",
+        "Gooch Synthetic Woodwind",
+        "Gooch Cybernetic Synthesizer",
+        "multimediale Lernerfahrungen"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-188.webp"
+      ]
+    },
+    {
+      "id": "card-5008475fbae2",
+      "question": "Wie entwickelte sich die Verbreitung und Kommerzialisierung des PLATO IV Systems in den Jahren 1975 und 1976?",
+      "answer": "Im Jahr 1975 wurde PLATO IV auf dem I CDC Cyber 73 betrieben und erreichte schnell eine signifikante Verbreitung mit fast 150 Standorten. Ein Jahr später, 1976, wurden die kommerziellen Rechte für das PLATO-System an Control Data Corp. (CDC) übertragen, was seine weitere Entwicklung und Vermarktung maßgeblich beeinflusste und es zu einem der ersten weit verbreiteten computergestützten Lernsysteme machte.",
+      "category": "Prozesse, Themengebiete",
+      "examRelevance": "medium",
+      "sourcePages": [
+        189
+      ],
+      "highlights": [
+        "I CDC Cyber 73",
+        "150 Standorte",
+        "kommerzielle Rechte",
+        "Control Data Corp.",
+        "weit verbreiteten computergestützten Lernsysteme"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-1fe47fffea88",
+      "question": "Was ist VAULT und wer hat es entwickelt?",
+      "answer": "VAULT steht für \"Versatile AUthoring Language for Teachers\" und war ein frühes CAI-Autorensystem. Es wurde 1969 von Eugene Romaniuk an der University of Alberta entwickelt.",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        191
+      ],
+      "highlights": [
+        "VAULT",
+        "Versatile AUthoring Language for Teachers",
+        "Eugene Romaniuk",
+        "University of Alberta",
+        "CAI-Autorensystem"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-191.webp"
+      ]
+    },
+    {
+      "id": "card-104e640412cf",
+      "question": "Welche technischen Merkmale und Innovationen zeichneten das VAULT-System aus?",
+      "answer": "VAULT wurde in PL/I implementiert und generierte COURSEWRITER-Code für das IBM 1500 System. Eine bemerkenswerte Innovation war eine Geschwindigkeitssteigerung um den Faktor 13. VAULT war zudem das erste System, das eine klare Trennung von Logik und Inhalt ermöglichte.",
+      "category": "Methoden, Prozesse",
+      "examRelevance": "high",
+      "sourcePages": [
+        192
+      ],
+      "highlights": [
+        "PL/I",
+        "COURSEWRITER-Code",
+        "IBM 1500",
+        "Geschwindigkeitssteigerung Faktor 13",
+        "Trennung von Logik und Inhalt"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-192.webp"
+      ]
+    },
+    {
+      "id": "card-69dd58d8effc",
+      "question": "Wofür steht die Abkürzung TICCIT und welches Kernkonzept verfolgte dieses System?",
+      "answer": "TICCIT steht für \"Time-shared, Interactive, Computer-Controlled Information Television\". Es war ein interaktives Kabelfernsehsystem (CATV-System), das von der MITRE Corporation ab 1968 entwickelt wurde. Ein zentrales Merkmal war der Rückkanal, der über ein MFV-Telefon (Mehrfrequenzwahlverfahren) realisiert wurde, um Interaktivität zu ermöglichen.",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        195
+      ],
+      "highlights": [
+        "TICCIT",
+        "Time-shared, Interactive, Computer-Controlled Information Television",
+        "MITRE Corporation",
+        "interaktives Kabelfernsehen",
+        "Rückkanal",
+        "MFV-Telefon",
+        "Mehrfrequenzwahlverfahren"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-d71ee07b46a1",
+      "question": "Beschreiben Sie die Entwicklung und die Anwendungsbereiche des TICCIT-Systems.",
+      "answer": "Der Prototyp von TICCIT wurde zwischen 1971 und 1972 in Reston, Virginia, entwickelt und mit NSF-Geldern weiterentwickelt. Es wurde in den Schuljahren 1975-1977 für den Unterricht in Englisch und Algebra eingesetzt. Die kommerzielle Vermarktung erfolgte durch die Hazeltine Corporation, wobei TICCIT in den Bereichen Militär, Industrie sowie Aus- und Weiterbildungsfirmen Anwendung fand.",
+      "category": "Prozesse, Themengebiete",
+      "examRelevance": "medium",
+      "sourcePages": [
+        196
+      ],
+      "highlights": [
+        "Prototyp",
+        "Reston Virginia",
+        "NSF-Gelder",
+        "Schuljahre 1975-1977",
+        "Englisch und Algebra",
+        "Hazeltine Corporation",
+        "kommerzielle Vermarktung",
+        "Militär"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-196.webp"
+      ]
+    },
+    {
+      "id": "card-29043767e0ce",
+      "question": "Nennen Sie wichtige frühe CAI-Systeme und Autorensprachen.",
+      "answer": "Zu den wichtigen frühen CAI-Systemen gehören PLATO, VAULT und TICCIT. Bedeutende Autorensprachen dieser Zeit waren TIP, CourseWriter, CATO und TUTOR. VAULT war zudem ein eigenständiges Autorensystem.",
+      "category": "Begriffe, Themengebiete",
+      "examRelevance": "high",
+      "sourcePages": [
+        197
+      ],
+      "highlights": [
+        "CAI",
+        "Computer-Aided Instruction",
+        "PLATO",
+        "VAULT",
+        "TICCIT",
+        "Autorensprachen",
+        "TIP",
+        "CourseWriter"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-d916a2731f19",
+      "question": "Welchen historischen Zusammenhang gibt es zwischen Hypertext und Autorensystemen?",
+      "answer": "Hypertext-Systeme werden als wichtige Vorgänger der späteren Autorensysteme betrachtet. Sie legten die konzeptionellen Grundlagen für die nicht-lineare Organisation und Verknüpfung von Informationen, was für die Entwicklung interaktiver Lernsysteme und Autorensysteme von Bedeutung war.",
+      "category": "Themengebiete, Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        199
+      ],
+      "highlights": [
+        "Hypertext",
+        "Autorensysteme",
+        "Vorgänger",
+        "nicht-lineare Organisation",
+        "Verknüpfung von Informationen"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-470d3a3cf463",
+      "question": "Listen Sie bedeutende frühe Hypertext-Systeme sowie spätere wichtige Entwicklungen auf.",
+      "answer": "Zu den frühen Hypertext-Systemen zählen Xanadu (ab 1960), NLS (oN-Line System, ab 1963), HES (Hypertext Editing System, 1967), ZOG (1975) und NoteCards (1984). Spätere wichtige Entwicklungen, die auf Hypertext-Prinzipien basierten, sind HyperCard (1987), das World Wide Web (1990) und Wiki (1995).",
+      "category": "Begriffe, Themengebiete",
+      "examRelevance": "high",
+      "sourcePages": [
+        200
+      ],
+      "highlights": [
+        "Hypertext-Systeme",
+        "Xanadu",
+        "NLS",
+        "oN-Line System",
+        "HES",
+        "Hypertext Editing System",
+        "ZOG",
+        "NoteCards"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-643b859d1da6",
+      "question": "Wer ist Ted Nelson und welche zentrale Rolle spielte er bei der Entwicklung von Hypertext?",
+      "answer": "Ted Nelson (geb. 1937) ist der Informatiker, der das Konzept von Hypertext und Hypermedia 1963 definierte und 1965 publizierte. Er startete 1960 das \"Project Xanadu\", dessen Ziel es war, alle geschriebenen Texte in einem großen Hypertext zu sammeln und bidirektionale Links zwischen ihnen zu ermöglichen.",
+      "category": "Begriffe, Personen",
+      "examRelevance": "high",
+      "sourcePages": [
+        202
+      ],
+      "highlights": [
+        "Ted Nelson",
+        "Hypertext",
+        "Hypermedia",
+        "Project Xanadu",
+        "bidirektional"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-fcc01ab71a9b",
+      "question": "Was sind die Kernmerkmale des \"Project Xanadu\" nach Ted Nelson?",
+      "answer": "Das \"Project Xanadu\" von Ted Nelson zielte darauf ab, eine Sammlung aller geschriebenen Texte in einem großen Hypertext zu schaffen. Ein zentrales Merkmal war, dass Literaturverweise, Links und Zitate immer mit dem Originaltext verbunden werden sollten und diese Links bidirektional waren, was eine Verfolgung von Referenzen in beide Richtungen ermöglichte.",
+      "category": "Konzepte, Methoden",
+      "examRelevance": "high",
+      "sourcePages": [
+        202
+      ],
+      "highlights": [
+        "Project Xanadu",
+        "Hypertext",
+        "bidirektional",
+        "Originaltext"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-046a475c12c3",
+      "question": "Welche Herausforderungen und Lösungsansätze wurden im \"Project Xanadu\" bezüglich der Dokumentenverwaltung und des Urheberrechts identifiziert?",
+      "answer": "Im \"Project Xanadu\" wurde erkannt, dass neuere Versionen von Dokumenten hinzugefügt werden müssen, während die alten Dokumente bestehen bleiben sollen (Versioning). Zudem wurde das Urheberrechtsproblem adressiert, indem eine automatische Abrechnung beim Aufruf eines Artikels vorgesehen war, um die Rechte der Autoren zu wahren.",
+      "category": "Prozesse, Herausforderungen",
+      "examRelevance": "high",
+      "sourcePages": [
+        203
+      ],
+      "highlights": [
+        "Versioning",
+        "Urheberrechtsproblem",
+        "automatische Abrechnung",
+        "Project Xanadu"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-203.webp"
+      ]
+    },
+    {
+      "id": "card-3e5def31e5cd",
+      "question": "Beschreiben Sie die historische Entwicklung und die Herausforderungen des \"Project Xanadu\" nach seiner Definition.",
+      "answer": "Nach der Definition von Hypertext durch Ted Nelson im Jahr 1963 und der Veröffentlichung 1965, startete die erste Version von Xanadu 1972, scheiterte aber an finanziellen Problemen. Ein weiterer Versuch ab 1979 führte fast zur Insolvenz. Obwohl Autodesk 1988 in das Projekt einstieg und 1992 wieder ausstieg, läuft das Projekt in verschiedenen Formen weiter, wie Udanax (1998 als Open Source) und Xanadu® Space™ (2007).",
+      "category": "Geschichte, Projekte",
+      "examRelevance": "medium",
+      "sourcePages": [
+        204
+      ],
+      "highlights": [
+        "Project Xanadu",
+        "historische Entwicklung",
+        "Udanax",
+        "Xanadu® Space™"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-3249f729bd0a",
+      "question": "Welches bekannte Werk verfasste Ted Nelson im Jahr 2009 über die Geschichte des Computers?",
+      "answer": "Im Jahr 2009 verfasste Ted Nelson das Werk \"Geeks Bearing Gifts\", das die Geschichte des Computers und des Computings aus seiner Perspektive darstellt.",
+      "category": "Werke, Personen",
+      "examRelevance": "low",
+      "sourcePages": [
+        205
+      ],
+      "highlights": [
+        "Ted Nelson",
+        "Geeks Bearing Gifts",
+        "Geschichte des Computers"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-0f377785a237",
+      "question": "Wer war Douglas Engelbart und welches Hauptziel verfolgte er mit dem NLS (oN-Line System)?",
+      "answer": "Douglas Engelbart (1925-2013) war ein Pionier der Computerwissenschaft, der ab 1963 am Stanford Research Institute (SRI) das NLS (oN-Line System) entwickelte. Das Hauptziel des NLS war die Symbiose von Mensch und Maschine, um die menschlichen Fähigkeiten zu erweitern und zu augmentieren.",
+      "category": "Personen, Konzepte",
+      "examRelevance": "high",
+      "sourcePages": [
+        206
+      ],
+      "highlights": [
+        "Douglas Engelbart",
+        "NLS (oN-Line System)",
+        "Symbiose von Mensch und Maschine",
+        "menschliche Fähigkeiten erweitern",
+        "Augmentation Research Center"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-fdbf5f279cc6",
+      "question": "Welche grundlegenden Funktionen bot das NLS (oN-Line System) zur Datenorganisation und -verknüpfung?",
+      "answer": "Das NLS (oN-Line System) von Douglas Engelbart bot die Funktion, Daten hierarchisch anzuordnen. Darüber hinaus ermöglichte es die Erstellung von Links zwischen verschiedenen Datenelementen, was eine vernetzte Informationsstruktur unterstützte.",
+      "category": "Funktionen, Systeme",
+      "examRelevance": "high",
+      "sourcePages": [
+        206
+      ],
+      "highlights": [
+        "NLS",
+        "Daten hierarchisch anordnen",
+        "Links zwischen Datenelementen"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-7b4610fe8f8e",
+      "question": "Welche Kommunikationsfunktionen und Netzwerk-Integration zeichneten das NLS (oN-Line System) aus?",
+      "answer": "Das NLS (oN-Line System) war eine umfassende elektronische Kommunikationsumgebung, die verteiltes Publizieren und Editieren mittels Texteditoren, elektronische Dokumentauslieferung, eine konfigurierbare Benutzerschnittstelle, E-Mail und Telefonkonferenzen umfasste. Es war zudem 1969 der zweite Knotenpunkt im ARPANET, neben der UCLA und der University of Utah als drittem Knotenpunkt.",
+      "category": "Funktionen, Kommunikation, Netzwerke",
+      "examRelevance": "high",
+      "sourcePages": [
+        207
+      ],
+      "highlights": [
+        "NLS",
+        "elektronische Kommunikationsumgebung",
+        "verteiltes Publizieren",
+        "E-Mail",
+        "Telefonkonferenzen",
+        "ARPANET",
+        "zweiter Knotenpunkt"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-207.webp"
+      ]
+    },
+    {
+      "id": "card-5217b6e9bebb",
+      "question": "Was ist unter \"The Mother of all demoes\" im Kontext des NLS zu verstehen und wann fand sie statt?",
+      "answer": "\"The Mother of all demoes\" bezeichnet die erste öffentliche Vorführung des NLS (oN-Line System) durch Douglas Engelbart und sein Team. Diese bahnbrechende Demonstration fand am 9. Dezember 1968 auf der Fall Joint Computer Conference in San Francisco statt und präsentierte viele heute selbstverständliche Konzepte wie die Maus, Hypertext, Videokonferenzen und kooperatives Arbeiten.",
+      "category": "Ereignisse, Geschichte",
+      "examRelevance": "high",
+      "sourcePages": [
+        208
+      ],
+      "highlights": [
+        "The Mother of all demoes",
+        "NLS",
+        "Douglas Engelbart",
+        "Fall Joint Computer Conference",
+        "9. Dezember 1968"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-208.webp"
+      ]
+    },
+    {
+      "id": "card-d27e1628b201",
+      "question": "Was war das HES (Hypertext Editing System) und welche Merkmale hatte es?",
+      "answer": "Das HES (Hypertext Editing System) war das erste funktionsfähige Hypertextsystem, das 1967 an der Brown University unter der Leitung von Andries van Dam und mit Unterstützung von Ted Nelson entwickelt wurde. Es umfasste einen Browser, eine Funktionstastatur, einen Lightpen, eine Hilfe-Funktion und ermöglichte Links direkt im Text.",
+      "category": "Systeme, Geschichte",
+      "examRelevance": "high",
+      "sourcePages": [
+        210
+      ],
+      "highlights": [
+        "HES (Hypertext Editing System)",
+        "Andries van Dam",
+        "Brown University",
+        "erstes funktionsfähiges Hypertextsystem",
+        "Browser",
+        "Funktionstastatur",
+        "Lightpen",
+        "Links im Text"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-f66dbd5aaecd",
+      "question": "Was ist HES (Hypertext Editing System) und welche Rolle spielte es in der frühen Hypertext-Entwicklung?",
+      "answer": "HES (Hypertext Editing System) war ein frühes Hypertext-System, das an der Brown University entwickelt wurde. Es lief auf einem IBM System/360/50 Mainframe-Computer und wurde von der NASA im Houston Manned Spacecraft Center zur Dokumentenverwaltung für das Apollo-Projekt eingesetzt. Seine Finanzierung durch IBM wurde 1969 eingestellt.",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        211
+      ],
+      "highlights": [
+        "HES",
+        "Hypertext Editing System",
+        "Brown University",
+        "IBM System/360/50",
+        "NASA",
+        "Apollo-Projekt"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-211.webp"
+      ]
+    },
+    {
+      "id": "card-249270c3cddd",
+      "question": "Erläutern Sie FRESS (File Retrieval and Editing System) und seine wesentlichen Verbesserungen gegenüber HES sowie die eingeführten Link-Typen.",
+      "answer": "FRESS (File Retrieval and Editing System) war eine Weiterentwicklung von HES, inspiriert durch NLS, und lief ebenfalls auf einem IBM System/360 (VM/CMS). Wesentliche Verbesserungen waren die frühe Implementierung von \"Virtual Terminal\"-Schnittstellen, die Unabhängigkeit von spezifischen Endgeräten und möglicherweise die Einführung einer Undo-Funktion. FRESS führte zwei Arten von Links ein: \"tags\" für Referenzen oder Fußnoten und \"jumps\" für bidirektionale Sprünge zu anderen Dokumenten. Es wurde unter anderem für einen Literaturkurs an der Brown University eingesetzt.",
+      "category": "Begriffe, Methoden",
+      "examRelevance": "high",
+      "sourcePages": [
+        212
+      ],
+      "highlights": [
+        "FRESS",
+        "File Retrieval and Editing System",
+        "Verbesserung von HES",
+        "NLS",
+        "Virtual Terminal",
+        "Undo-Funktion",
+        "tags",
+        "jumps"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-f795178f84af",
+      "question": "Beschreiben Sie das Hypertext-System ZOG, seine Struktur und seinen Einsatzbereich.",
+      "answer": "ZOG war ein frühes Hypertext-System, das von Donald McCracken und Robert Akscyn an der CMU entwickelt wurde. Es basierte auf hierarchisch geordneten \"Frames\" mit Text und wurde 1972 als Datenbank für eine Multi-User-Umgebung im Kontext der KI-Forschung (Alan Newell) eingeführt. Eine vollständige Version lief 1977 auf einem IBM Mainframe, und 1982 erfolgte eine Portierung auf PERQ für den Einsatz auf dem Flugzeugträger USS Carl Vinson.",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        214
+      ],
+      "highlights": [
+        "ZOG",
+        "Frames",
+        "hierarchisch geordnet",
+        "Donald McCracken",
+        "Robert Akscyn",
+        "CMU",
+        "Multi-User-Umgebung",
+        "KI-Forschung"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-214.webp"
+      ]
+    },
+    {
+      "id": "card-eb2e20b3a9e3",
+      "question": "Wie ist eine ZOG-Card (Frame) strukturiert und welche Besonderheit gab es bezüglich der Informationsdarstellung?",
+      "answer": "Eine ZOG-Card, auch Frame genannt, ist strukturiert mit einem Titel, einer Beschreibung, ZOG System-Befehlen und \"Selections\", die als Menü mit Links zu anderen Karten dienen. Eine Besonderheit war, dass die Informationen innerhalb einer Karte nicht \"scrollen\" konnten, was bedeutete, dass der gesamte Inhalt auf einmal sichtbar sein musste. Es war jedoch möglich, weitere Karten zu erstellen, um mehr Informationen darzustellen.",
+      "category": "Methoden, Struktur",
+      "examRelevance": "high",
+      "sourcePages": [
+        215
+      ],
+      "highlights": [
+        "ZOG-Card",
+        "Frame",
+        "Titel",
+        "Beschreibung",
+        "System-Befehle",
+        "Selections",
+        "Links",
+        "nicht scrollen"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-215.webp"
+      ]
+    },
+    {
+      "id": "card-1daefdbc0249",
+      "question": "Was ist NoteCards, wer entwickelte es und welches war sein grundlegendes Konzept?",
+      "answer": "NoteCards war ein Hypertext-System, das 1984 bei Xerox PARC von Randall Trigg, Frank Halasz und Thomas Moran entwickelt wurde. Sein grundlegendes Konzept basierte auf der Verwendung unterschiedlicher Typen von Nodes. Es war event-driven implementiert und nutzte LISP als Programmiersprache, wobei es auch zur Erstellung eigener Erweiterungen verwendet werden konnte.",
+      "category": "Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        216
+      ],
+      "highlights": [
+        "NoteCards",
+        "Xerox PARC",
+        "Randall Trigg",
+        "Frank Halasz",
+        "Thomas Moran",
+        "unterschiedlichen Typen von Nodes",
+        "event-driven",
+        "LISP"
+      ],
+      "importantGraphic": false,
+      "media": []
+    },
+    {
+      "id": "card-b733d4f03002",
+      "question": "Erläutern Sie die vier Basisobjekte des NoteCards-Modells und die Link-Taxonomie.",
+      "answer": "Das NoteCards-Modell basiert auf vier Basisobjekten: \"notecards\" als individuelle Informationseinheiten, \"links\" zur Verbindung dieser Notecards, \"browser cards\" zur Navigation durch das Notecard-Netzwerk und \"filebox cards\" zur Organisation von Notecard-Sammlungen. Die Link-Taxonomie unterschied zwischen \"normalen Links\" und \"Kommentarlinks\".",
+      "category": "Struktur, Begriffe",
+      "examRelevance": "high",
+      "sourcePages": [
+        217
+      ],
+      "highlights": [
+        "NoteCards-Modell",
+        "Basisobjekte",
+        "notecards",
+        "links",
+        "browser card",
+        "filebox card",
+        "Link-Taxonomie",
+        "normale Links"
+      ],
+      "importantGraphic": true,
+      "media": [
+        "/media/page-217.webp"
+      ]
+    },
+    {
+      "id": "card-a5d0d360b76e",
+      "question": "Nennen Sie die wichtigsten frühen Hypertext-Systeme, ihre Entwickler und jeweils ein prägnantes Merkmal.",
+      "answer": "Die wichtigsten frühen Hypertext-Systeme und ihre Entwickler sind:\n- **Ted Nelson:** Entwickelte die Konzepte \"Xanadu\" und \"HyperText\".\n- **Douglas Engelbart:** Entwickelte das \"NLS: oN-Line System\", führte die Computer-Maus ein und prägte den Begriff \"Augmentation\".\n- **Andries van Dam:** War maßgeblich an \"HES\" und \"FRESS\" beteiligt, die als erste funktionsfähige Hypertextsysteme galten und unter anderem für das Apollo-Projekt der NASA eingesetzt wurden.\n- **ZOG:** Ein Kartensystem, das auf \"Frames mit Text\" basierte.\n- **NoteCards:** Ein Kartensystem, das auf vier Basisobjekten (notecards, links, browser card, filebox card) aufbaute.",
+      "category": "Themengebiete, Vergleich",
+      "examRelevance": "high",
+      "sourcePages": [
+        218
+      ],
+      "highlights": [
+        "Ted Nelson",
+        "Xanadu",
+        "HyperText",
+        "Douglas Engelbart",
+        "NLS: oN-Line System",
+        "Computer-Maus",
+        "Augmentation",
+        "Andries van Dam"
+      ],
+      "importantGraphic": false,
+      "media": []
+    }
+  ]
+}
