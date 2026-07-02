@@ -118,6 +118,47 @@ button:disabled {
   padding: 22px clamp(14px, 4vw, 36px) 92px;
 }
 
+.install-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+  padding: 14px;
+  border: 1px solid color-mix(in oklch, var(--accent), var(--line) 52%);
+  border-radius: 8px;
+  background: color-mix(in oklch, var(--accent), white 90%);
+}
+
+.install-banner-copy {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.install-banner-copy svg {
+  flex: 0 0 auto;
+  color: var(--accent);
+}
+
+.install-banner-copy strong {
+  display: block;
+  line-height: 1.2;
+}
+
+.install-banner-copy p {
+  margin: 3px 0 0;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
+.install-banner-actions {
+  display: flex;
+  gap: 8px;
+  flex: 0 0 auto;
+}
+
 .section {
   display: grid;
   gap: 18px;
@@ -272,6 +313,11 @@ button:disabled {
   background: var(--ink);
   color: white;
   font-weight: 760;
+}
+
+.btn.compact {
+  min-height: 38px;
+  padding-inline: 12px;
 }
 
 .btn.secondary {
@@ -481,6 +527,16 @@ button:disabled {
 
   .btn {
     width: 100%;
+  }
+
+  .install-banner {
+    align-items: stretch;
+    display: grid;
+  }
+
+  .install-banner-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
 

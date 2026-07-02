@@ -9,6 +9,7 @@ import {
   RotateCcw,
   Search,
   Settings,
+  Smartphone,
   X
 } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
@@ -34,9 +35,14 @@ type CardProgress = {
 
 type ProgressMap = Record<string, CardProgress>;
 type View = "home" | "learn" | "cards" | "settings";
+type BeforeInstallPromptEvent = Event & {
+  prompt: () => Promise<void>;
+  userChoice: Promise<{ outcome: "accepted" | "dismissed"; platform: string }>;
+};
 
 const STORAGE_KEY = "denisLearn.progress.v1";
 const SESSION_KEY = "denisLearn.session.v1";
+const INSTALL_PROMPT_KEY = "denisLearn.installPrompt.v1";
 const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 const fallbackCards: Card[] = [
@@ -90,6 +96,8 @@ export default function LearnApp() {
   const [showAnswer, setShowAnswer] = useState(false);
   const [query, setQuery] = useState("");
   const [cardFilter, setCardFilter] = useState("all");
+  const [installPrompt, setInstallPrompt] = useState<BeforeInstallPromptEvent | null>(null);
+  const [showInstallPrompt, setShowInstallPrompt] = useState(false);
 
   useEffect(() => {
     setProgress(readProgress());
@@ -117,6 +125,20 @@ export default function LearnApp() {
     if ("serviceWorker" in navigator) {
       navigator.serviceWorker.register(assetPath("/sw.js")).catch(() => undefined);
     }
+
+    const standalone =
+      window.matchMedia("(display-mode: standalone)").matches ||
+      (navigator as Navigator & { standalone?: boolean }).standalone === true;
+    setShowInstallPrompt(!standalone && localStorage.getItem(INSTALL_PROMPT_KEY) !== "dismissed");
+
+    function handleBeforeInstallPrompt(event: Event) {
+      event.preventDefault();
+      setInstallPrompt(event as BeforeInstallPromptEvent);
+      if (localStorage.getItem(INSTALL_PROMPT_KEY) !== "dismissed") setShowInstallPrompt(true);
+    }
+
+    window.addEventListener("beforeinstallprompt", handleBeforeInstallPrompt);
+    return () => window.removeEventListener("beforeinstallprompt", handleBeforeInstallPrompt);
   }, []);
 
   useEffect(() => {
@@ -203,6 +225,22 @@ export default function LearnApp() {
     setView("home");
   }
 
+  function dismissInstallPrompt() {
+    localStorage.setItem(INSTALL_PROMPT_KEY, "dismissed");
+    setShowInstallPrompt(false);
+  }
+
+  async function installApp() {
+    if (!installPrompt) {
+      dismissInstallPrompt();
+      return;
+    }
+    await installPrompt.prompt();
+    const choice = await installPrompt.userChoice.catch(() => null);
+    if (choice?.outcome === "accepted") dismissInstallPrompt();
+    setInstallPrompt(null);
+  }
+
   const filteredCards = useMemo(() => {
     return cards.filter((card) => {
       const matchesCategory = cardFilter === "all" || card.category === cardFilter;
@@ -233,6 +271,26 @@ export default function LearnApp() {
       </header>
 
       <main className="main">
+        {showInstallPrompt && (
+          <section className="install-banner" aria-label="App installieren">
+            <div className="install-banner-copy">
+              <Smartphone size={22} aria-hidden="true" />
+              <div>
+                <strong>Als App installieren</strong>
+                <p>Fuer schnelles Lernen auf Android: zum Startbildschirm hinzufuegen und Fortschritt lokal behalten.</p>
+              </div>
+            </div>
+            <div className="install-banner-actions">
+              <button className="btn secondary compact" onClick={dismissInstallPrompt}>
+                Spaeter
+              </button>
+              <button className="btn compact" onClick={installApp}>
+                Installieren
+              </button>
+            </div>
+          </section>
+        )}
+
         {view === "home" && (
           <section className="section">
             <div className="overview">
