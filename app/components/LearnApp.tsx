@@ -123,7 +123,17 @@ export default function LearnApp() {
       .catch(() => setCards(fallbackCards));
 
     if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register(assetPath("/sw.js")).catch(() => undefined);
+      let refreshing = false;
+      navigator.serviceWorker.addEventListener("controllerchange", () => {
+        if (refreshing) return;
+        refreshing = true;
+        window.location.reload();
+      });
+
+      navigator.serviceWorker
+        .register(assetPath("/sw.js"))
+        .then((registration) => registration.update().catch(() => undefined))
+        .catch(() => undefined);
     }
 
     const standalone =
