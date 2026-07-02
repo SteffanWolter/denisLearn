@@ -50,9 +50,8 @@ export async function renderPages({ dpi = 130, quality = 78 } = {}) {
     const pngPath = `${pngPrefix}.png`;
     const webpPath = path.join(tmpDir, `page-${pageId}.webp`);
 
-    try {
-      await fs.access(webpPath);
-    } catch {
+    const needsRender = await fs.stat(webpPath).then((stat) => stat.size === 0).catch(() => true);
+    if (needsRender) {
       run(pdftoppmPath(), ["-r", String(dpi), "-png", "-singlefile", "-f", String(page), "-l", String(page), pdfPath, pngPrefix]);
       await sharp(pngPath).webp({ quality }).toFile(webpPath);
       await fs.rm(pngPath, { force: true });

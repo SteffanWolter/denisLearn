@@ -6,17 +6,21 @@ import { renderPages } from "./render-pages.mjs";
 import { validateCards } from "./validate-cards.mjs";
 
 const root = process.cwd();
-const apiKey = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY;
+const apiKeys = (process.env.GEMINI_API_KEYS || process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY || "")
+  .split(/[,\n;]/)
+  .map((key) => key.trim())
+  .filter(Boolean);
 const batchSize = Number(process.env.BATCH_SIZE || 5);
 const requestedModel = process.env.GEMINI_MODEL || "";
 const retryAttempts = Number(process.env.RETRY_ATTEMPTS || 4);
 const rateDelayMs = Number(process.env.RATE_DELAY_MS || 13000);
+const parallelBatches = Number(process.env.PARALLEL_BATCHES || apiKeys.length || 1);
 const outputDir = path.join(root, "pipeline", "output");
 const mediaDir = path.join(root, "public", "media");
 const cardsPath = path.join(root, "public", "data", "cards.json");
 
-if (!apiKey) {
-  throw new Error("Missing GEMINI_API_KEY. Put it in .env.local or pass it as an environment variable.");
+if (!apiKeys.length) {
+  throw new Error("Missing GEMINI_API_KEY or GEMINI_API_KEYS. Put it in .env.local or pass it as an environment variable.");
 }
 
 const schema = {
@@ -69,7 +73,7 @@ async function fileToInlineData(file) {
   };
 }
 
-async function chooseModel() {
+async function chooseModel(apiKey) {
   if (requestedModel) return requestedModel;
   const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?key=${apiKey}`);
   if (!response.ok) return "gemini-2.5-flash";
@@ -89,12 +93,40 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+function findDetail(details, typeSuffix) {
+  return (details || []).find((detail) => String(detail["@type"] || "").endsWith(typeSuffix));
+}
+
 function retryDelayFromError(status, body, attempt) {
+  try {
+    const parsed = JSON.parse(body);
+    const retryInfo = findDetail(parsed.error?.details, "RetryInfo");
+    const retryDelay = retryInfo?.retryDelay;
+    const match = typeof retryDelay === "string" ? retryDelay.match(/^(\d+)s$/) : null;
+    if (match) return (Number(match[1]) + 2) * 1000;
+  } catch {
+    // Fall through to regex and status defaults.
+  }
   const retryMatch = body.match(/"retryDelay"\s*:\s*"(\d+)s"/);
   if (retryMatch) return (Number(retryMatch[1]) + 2) * 1000;
   if (status === 429) return 62000;
   if (status === 503) return Math.min(120000, 10000 * 2 ** attempt);
   return 0;
+}
+
+function geminiError(status, body) {
+  const error = new Error(`Gemini request failed (${status}): ${body}`);
+  error.status = status;
+  error.body = body;
+  return error;
+}
+
+function classifyGeminiError(error) {
+  const body = error.body || error.message || "";
+  if (/API key not valid|API_KEY_INVALID|invalid api key/i.test(body)) return "invalid-key";
+  if (/GenerateRequestsPerDay|per day|daily/i.test(body)) return "daily-quota";
+  if (error.status === 429) return "rate-quota";
+  return "other";
 }
 
 function promptForBatch(pages) {
@@ -114,7 +146,7 @@ Regeln:
 `;
 }
 
-async function callGemini(model, pages) {
+async function callGemini(model, pages, apiKey) {
   const parts = [{ text: promptForBatch(pages) }];
   for (const page of pages) {
     parts.push({ text: `PDF-Seite ${page.page}` });
@@ -148,8 +180,10 @@ async function callGemini(model, pages) {
     }
 
     const body = await response.text();
+    const permanentType = classifyGeminiError({ status: response.status, body, message: body });
+    if (["invalid-key", "daily-quota"].includes(permanentType)) throw geminiError(response.status, body);
     const canRetry = [429, 500, 502, 503, 504].includes(response.status) && attempt < retryAttempts;
-    if (!canRetry) throw new Error(`Gemini request failed (${response.status}): ${body}`);
+    if (!canRetry) throw geminiError(response.status, body);
     const waitMs = retryDelayFromError(response.status, body, attempt);
     console.warn(`Gemini ${response.status}; retrying in ${Math.round(waitMs / 1000)}s.`);
     await sleep(waitMs);
@@ -211,46 +245,81 @@ async function writeCurrentOutputs({ allCards, errors, model, pages, pageMap }) 
   return normalized;
 }
 
+async function readCachedBatch(batchFile) {
+  if (process.env.FORCE_REGENERATE === "true") return null;
+  try {
+    return JSON.parse(await fs.readFile(batchFile, "utf8"));
+  } catch {
+    return null;
+  }
+}
+
+async function writeOutputsFromResults({ results, errors, model, pages, pageMap }) {
+  const allCards = results.flatMap((result) => (Array.isArray(result?.cards) ? result.cards : []));
+  return writeCurrentOutputs({ allCards, errors, model, pages, pageMap });
+}
+
 async function main() {
   await fs.mkdir(outputDir, { recursive: true });
   await fs.mkdir(path.dirname(cardsPath), { recursive: true });
-  const model = await chooseModel();
+  const model = await chooseModel(apiKeys[0]);
   const pages = await renderPages();
   const pageMap = new Map(pages.map((page) => [page.page, page.imagePath]));
   const batches = chunk(pages, batchSize);
-  const allCards = [];
+  const results = Array(batches.length).fill(null);
   const errors = [];
+  const queue = [];
 
   for (let index = 0; index < batches.length; index += 1) {
     const batch = batches[index];
     const batchFile = path.join(outputDir, `batch-${String(index + 1).padStart(3, "0")}.json`);
-    console.log(`Gemini batch ${index + 1}/${batches.length}: pages ${batch.map((page) => page.page).join(", ")}`);
-    try {
-      let result;
-      if (process.env.FORCE_REGENERATE !== "true") {
-        try {
-          result = JSON.parse(await fs.readFile(batchFile, "utf8"));
-        } catch {
-          result = null;
-        }
-      }
-      if (!result) {
-        result = await callGemini(model, batch);
-        await fs.writeFile(batchFile, JSON.stringify(result, null, 2), "utf8");
+    const cached = await readCachedBatch(batchFile);
+    if (cached) {
+      results[index] = cached;
+      continue;
+    }
+    queue.push({ index, batch, batchFile });
+  }
+
+  console.log(`Using model ${model}. Cached batches: ${results.filter(Boolean).length}. Missing batches: ${queue.length}. Keys: ${apiKeys.length}. Workers: ${Math.min(Math.max(1, parallelBatches), apiKeys.length, Math.max(1, queue.length))}.`);
+
+  let cursor = 0;
+  const workers = apiKeys.slice(0, Math.min(Math.max(1, parallelBatches), apiKeys.length, Math.max(1, queue.length))).map(async (apiKey, workerIndex) => {
+    while (cursor < queue.length) {
+      const task = queue[cursor];
+      cursor += 1;
+      const batchNumber = task.index + 1;
+      console.log(`Worker ${workerIndex + 1}: Gemini batch ${batchNumber}/${batches.length}: pages ${task.batch.map((page) => page.page).join(", ")}`);
+      try {
+        const result = await callGemini(model, task.batch, apiKey);
+        await fs.writeFile(task.batchFile, JSON.stringify(result, null, 2), "utf8");
+        results[task.index] = result;
+        const normalized = await writeOutputsFromResults({ results, errors, model, pages, pageMap });
+        console.log(`Current card count: ${normalized.length}`);
         if (rateDelayMs > 0) await sleep(rateDelayMs);
+      } catch (error) {
+        const type = classifyGeminiError(error);
+        if (["invalid-key", "daily-quota"].includes(type)) {
+          queue.push(task);
+          console.error(`Worker ${workerIndex + 1} stopped: ${type}.`);
+          return;
+        }
+        errors.push({ batch: batchNumber, pages: task.batch.map((page) => page.page), message: error.message });
+        console.error(error.message);
+        await writeOutputsFromResults({ results, errors, model, pages, pageMap });
       }
-      const cards = Array.isArray(result.cards) ? result.cards : [];
-      allCards.push(...cards);
-      const normalized = await writeCurrentOutputs({ allCards, errors, model, pages, pageMap });
-      console.log(`Current card count: ${normalized.length}`);
-    } catch (error) {
-      errors.push({ batch: index + 1, pages: batch.map((page) => page.page), message: error.message });
-      console.error(error.message);
-      await writeCurrentOutputs({ allCards, errors, model, pages, pageMap });
+    }
+  });
+
+  await Promise.all(workers);
+
+  for (let index = 0; index < batches.length; index += 1) {
+    if (!results[index]) {
+      errors.push({ batch: index + 1, pages: batches[index].map((page) => page.page), message: "Batch not generated in this run." });
     }
   }
 
-  const normalized = await writeCurrentOutputs({ allCards, errors, model, pages, pageMap });
+  const normalized = await writeOutputsFromResults({ results, errors, model, pages, pageMap });
   console.log(`Wrote ${normalized.length} cards to ${cardsPath}`);
 }
 
